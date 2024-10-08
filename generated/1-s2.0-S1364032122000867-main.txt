@@ -1,0 +1,1308 @@
+Renewable and Sustainable Energy Reviews 159 (2022) 112158
+A
+1
+T
+p
+J
+T
+a
+b
+A
+K
+B
+L
+P
+T
+V
+W
+1
+D
+t
+(
+m
+e
+t
+n
+a
+l
+c
+w
+E
+b
+h
+R
+Contents lists available at ScienceDirect
+Renewable and Sustainable Energy Reviews
+journal homepage: www.elsevier.com/locate/rser
+otal CO2-equivalent life-cycle emissions from commercially available
+assenger cars
+ohannes Buberger a, Anton Kersten a,b,∗, Manuel Kuder a, Richard Eckerle a, Thomas Weyh a,
+orbjörn Thiringer b
+Universität der Bundeswehr München, Werner-Heisenberg-Weg 39, 85577 Neubiberg, Germany
+Chalmers University of Technology, 412 96 Gothenburg, Sweden
+R T I C L E I N F O
+eywords:
+attery production
+ife-cycle CO2 emissions
+assenger car
+ransport fuel
+ehicle emissions
+ell-to-Wheel
+A B S T R A C T
+The international passenger car market is undergoing a transition from vehicles with internal combustion
+engines to hybrid and fully electrified vehicles to reduce the climate impact of the transportation sector. To
+emphasize the importance of this needed change, this paper provides holistic comparisons of the total life-cycle
+greenhouse gas (GHG) emissions produced by a wide selection of commercially available passenger cars with
+different powertrains and energy sources. Simple analytical models are used to quantify the total life-cycle GHG
+emissions in terms of CO2-equivalent values relative to the vehicle curb weight and the peak motor power.
+The production, utilization and recycling emissions are separately quantified based on the latest reviewed
+emission coefficient values. In total 790 different vehicle variants are considered. The results show that Battery
+Electric Vehicles have the highest production emissions. For example, the additional production emissions of a
+Tesla Model 3 Standard Plus approximately correspond to the driving emissions of a Volkwagen Passat 2.0 TSI
+after 18 000 km. Nonetheless, it is shown that conventional gasoline and diesel vehicles emit the highest amount
+of total life-cycle GHGs in comparison to vehicles powered by other available energy resources. When using
+green electricity, plug-in hybrid electric and fully electric vehicles can reduce the total life-cycle emission
+in comparison to combustion engine vehicles by 73% and 89%, respectively. A similar emission reduction is
+achieved by biogas powered vehicles (81%). Fuel cell vehicles approximately reduce the GHG emission to a
+similar extent as electric vehicles (charged with conventional electricity) when using commercially available
+gray hydrogen (60%).. Introduction
+In 2019, the European Commission published the European Green
+eal, as described and discussed in [1,2]. It comprises a strategy with
+he primary goal to increase the sustainability of the European Union’s
+EU) economy and to make Europe climate neutral in 2050. One of its
+ajor milestones is the significant reduction of Greenhouse Gas (GHG)
+missions, such as CO2, by a minimum of 50% until 2030 in comparison
+o 1990 emission levels. Therefore, it is also planned to reach climate
+eutrality within the transportation sector, which can be essentially
+chieved by reducing passenger vehicles’ GHG emissions [3].
+Currently, different energy sources, such as liquid fuels, fuel gases or
+ithium-ion batteries, can be used to power passenger cars [4,5]. Typi-
+ally, Internal Combustion Engine Vehicles (ICEV) constantly emit CO2
+hile driving, whereas Battery Electric Vehicles (BEV) and Fuel Cell
+lectric Vehicles (FCEV) do not. Accordingly, consumer information
+rochures only describe passenger vehicles’ driving emissions, which
+∗ Corresponding author at: Chalmers University of Technology, 412 96 Gothenburg, Sweden.
+E-mail addresses: johannes.buberger@unibw.de (J. Buberger), kersten@chalmers.se (A. Kersten).
+might mislead consumers to believe that Zero-Emission Vehicles (ZEV)
+do not emit any CO2, since any other life-cycle emission aspects are
+omitted [6]. However, the primary energy sources of the electricity
+used to charge BEVs’ batteries or to produce hydrogen, as well as
+the emissions created from vehicles’ production, and to a lesser extent
+the disposal/recycling, must be considered when comparing passenger
+vehicles’ total CO2 emissions. Therefore, Life-Cycle Assessment (LCA)
+in terms of equivalent CO2 emissions is a common approach to fairly
+compare the climate impact of different vehicles [7]. Although, due
+to the steady improvement of battery production/recycling techniques
+and local developments of green energy generation plants, LCA results
+involving BEVs can quickly become outdated. Furthermore, certain
+GHG aspects like the electricity carbon intensity [8] or the carbon
+emissions associated with the fuel transportation, such as crude oil ship-
+ping [9] or hydrogen transportation [10], do locally vary. Thus, asvailable online 10 February 2022
+364-0321/© 2022 The Author(s). Published by Elsevier Ltd. This is an open access a
+ttps://doi.org/10.1016/j.rser.2022.112158
+eceived 17 October 2021; Received in revised form 10 January 2022; Accepted 1rticle under the CC BY license (http://creativecommons.org/licenses/by/4.0/).
+4 January 2022
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.
+c
+a
+e
+p
+d
+a
+a
+t
+p
+Abbreviations
+BEV Battery Electric Vehicle
+CBG Compressed Biogas
+CNG Compressed Natural Gas
+DIN German Institute for Standardization
+EoL End-of-Life
+EU European Union
+EV Electric Vehicle
+FCEV Fuel Cell Electric Vehicle
+GHG Greenhouse Gas
+ICEV Internal Combustion Engine Vehicle
+LCA Life-Cycle Assessment
+LiDAR Light Detection And Ranging
+LPG Liquid Petrol Gas
+NEDC New European Driving Cycle
+PHEV Plug-in Hybrid Electric Vehicle
+RADAR Radio Detection And Ranging
+TtW Tank-to-Wheel
+UF Utility Factor
+USA United States of America
+WLTC Worldwide Harmonized Light-Duty Vehi-
+cles Test Cycle
+WLTP Worldwide Harmonized Light-Duty Vehi-
+cles Test Procedure
+WtT Well-to-Tank
+WtW Well-to-Wheel
+ZEV Zero-Emission Vehicle
+pointed out in [11] or [12], it is difficult to directly compare LCA
+results from different research papers.
+For example, an LCA comparison between an ICEV and a BEV
+in China from 2018 is given in [13], which concludes that BEVs do
+not achieve any GHG emission reductions in comparison to similar
+ICEVs due to the carbon-intensive power generation in China, affecting
+the battery production and driving emissions. Similar conclusions are
+drawn in [14,15] for a BEV and ICEV comparison in Australia and
+for heavy-duty transports in Europe, respectively. In contrast, in [16]
+it is stated that the required emissions for the production of a Tesla
+size battery can correspond to the driving emissions of an ICEV after
+8.2 years. In comparison to these publications, the research in [17]
+reveals that modern production techniques, as used for example in
+the United States of America (USA), can reduce the GHG emissions of
+Chinese battery manufacturing plants by about two thirds. Therefore,
+other LCA comparisons indicate that mid-size BEVs can reduce the life-
+cycle CO2 emissions by 16% to 46% [18,19] in comparison to ICEVs,
+especially if renewable energy is available as a primary energy source
+for charging [20] and when including also the battery recycling process
+into the LCA [21]. Latest investigations show similar emission reduction
+tendencies for Plug-In Hybrid Electric Vehicles (PHEVs) [22], electric
+and hybrid buses [23], as well as electric trucks [24] in comparison
+to their combustion engine counterparts. In addition, as described
+in [25], the effect of the vehicle size and the battery capacity on the
+GHG emissions is less pronounced for EVs than for ICEVs. Moreover,
+as stated in [26], modern battery recycling techniques are under de-
+velopment and, thus, the climate impact of the recycling process is
+steadily improving as well. Nowadays, almost all battery materials can
+be recycled, as stated by [27], and the required energy amount is
+steadily decreasing [28].
+However, the LCA investigations of the above mentioned research
+articles highlight only the role of a limited vehicle selection or partly2
+Nomenclature
+𝑎 Fitting coefficient
+𝑏 Fitting coefficient
+𝑐 Fitting coefficient
+𝐶bat Battery capacity
+𝑐WLTP Relative consumption during WLTP
+𝐷WLTP WLTP driving distance
+𝐸CO2 ,CD CO2 emissions, charge depleting
+𝐸CO2 ,CS CO2 emissions, charge sustaining
+𝐸CO2 ,tot Total CO2 emissions
+𝐸life,tot Total life-cycle emissions
+𝑒prod,bat Battery production emissions
+𝑒prod,body Body production emissions
+𝐸prod,tot Total production emissions
+𝑒recyc,bat Recycling emissions battery
+𝑒recyc,body Recycling emissions vehicle body
+𝐸recyc,tot Total recycling emissions
+𝑒ttw Tank-to-Wheel emissions
+𝐸util,tot Total utilization emissions
+𝑒wtt Well-to-Tank emissions
+𝑒wtw Well-to-Wheel emissions
+𝑚veh Gross vehicle mass
+𝑚veh,bat Gross vehicle battery mass
+𝑚veh,body Gross vehicle body mass
+𝑃veh,max Vehicle peak motor power
+𝑆lifetime Vehicle lifetime distance
+𝜉bat Battery specific energy
+pure hypothetical vehicles. Additionally, none of the research articles
+include vehicles’ total lifetime emissions from the production to the
+recycling emissions considering the latest emissions coefficients, such
+as given in [28]. Hence, no holistic GHG emission comparisons of a
+large variety of commercially available vehicles with different kinds of
+energy sources can be found yet.
+Therefore, the contribution of this paper is to give a comprehen-
+sive/holistic overview about the total CO2 equivalent life-cycle emis-
+sions from a broad selection of commercially available passenger cars
+with different powertrains and energy sources. For this purpose, the
+latest emission parameters are extensively reviewed, a vehicle data
+base with 790 different car variants is created and, further, the produc-
+tion, utilization, including the Well-to-Wheel (WtW), and the recycling
+emissions are considered. Moreover, the life-cycle emissions are charac-
+terized relative to the vehicle curb weight and the peak motor power.
+Within the scope of this paper, the aspect of any kind of second-life
+battery utilization has not been taken into account.
+2. Modeling of estimated life-cycle CO𝟐-equivalent emissions
+This chapter gives a brief but comprehensive description about the
+analytical models used within the scope of this paper to estimate and,
+consequently, to compare vehicles’ total GHG emissions in terms of
+CO2-equivalent (CO2-eq.) emissions. LCA is an unbiased approach to
+ompare the environmental impacts associated with all the stages of
+product’s life cycle [29]. It considers for instance a product’s GHG
+missions associated with the product’s production and manufacturing
+rocess, utilization, maintenance, End-of-Life (EoL) treatment and final
+isposal [14,19]. Often, vehicles’ total life-cycle emissions can be gener-
+lly categorized into three distinct parts/phases: production, utilization
+nd recycling emissions. Typically, GHG emissions are quantified in
+erms of CO2-eq. emissions, which is a metric measure used to com-
+are various greenhouse gases [22] in terms of their global warming
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.Fig. 1. Methodology of LCA: Accumulation of production, utilization and recycling GHG emissions in a database and systematic evaluation.potential in relation to that of CO2. Generally, a vehicle’s total CO2-eq.
+life-cycle emissions 𝐸life,tot can be calculated as
+𝐸life,tot = 𝐸prod,tot + 𝐸util,tot + 𝐸recyc,tot (1)
+with 𝐸prod,tot , 𝐸util,tot and 𝐸recyc,tot being the total production, utilization
+and recycling emissions, respectively. In the following, the individual
+life-cycle emission parts are described in detail. Furthermore, simple
+analytical models are introduced to quickly quantify vehicles’ life-cycle
+emissions relative to vehicles’ curb weight, battery capacity, drive cycle
+emissions and life time in terms of the total traveled distance. The
+methodology used to calculate the total life-cycle GHG emissions is
+schematically illustrated in Fig. 1. At first, the production emissions
+of every vehicle are calculated according to Section 2.1. Then, the
+utilization emissions are estimated, as described in Section 2.2, before
+completing the GHG emission calculation with the recycling emissions,
+as explained in Section 2.3. Since the database includes several hun-
+dreds of different vehicle models, the equations are kept simple while
+accounting for a reasonable amount of uncertainties. The numerical
+values used for all calculations originate from literature as outlined in
+Section 3. The bibliographic references were surveyed based on their
+date of publication, favoring newer information, and on their depth of
+detail.
+2.1. Production emissions
+Even before a vehicle can be used to transport goods or passengers,
+a large amount of GHGs must be emitted to exploit a vehicle’s raw
+materials and to manufacture the vehicle itself [17], referred to in here
+as production emissions. As similarly described in [14], a vehicle’s total
+CO2-eq. production emissions 𝐸prod,tot can be estimated according to
+𝐸prod,tot = 𝑚veh,body ⋅ 𝑒prod,body + 𝐶bat ⋅ 𝑒prod,bat (2)
+with 𝑚veh,body and 𝐶bat being the vehicle curb weight in kg and the
+traction battery capacity (only for types of EVs) in kWh. Further-
+more, 𝑒prod,body and 𝑒prod,bat are the relative CO2-eq. emission for the
+vehicle body and the traction battery, given in kg CO2 − eq.∕kg and
+kg CO2 − eq.∕ kWh, respectively. The vehicle curb weight 𝑚veh can be
+distinguished into the body mass 𝑚veh,body and the battery mass 𝑚veh,bat
+according to
+𝑚veh = 𝑚veh,body + 𝑚veh,bat = 𝑚veh,body +
+𝐶bat
+𝜉bat
+(3)
+with 𝐶𝑏𝑎𝑡 and 𝜉𝑏𝑎𝑡 being the battery’s nominal capacity in kWh and
+specific energy in kWh/kg, respectively.
+2.2. Utilization emissions
+After a vehicle is produced and delivered to the consumer, GHGs
+are constantly emitted when utilizing the vehicle and for its mainte-
+nance/repair, referred to in [7] as operational emissions. However, the
+emissions necessary for the production of expendable/spare parts, such
+as new tires, coolant fluids or lubricant oils, and vehicles’ maintenance
+are very low in comparison to the emissions produced by the utilization
+of the vehicle [14,17]. Moreover, based on the user’s driving profile and
+behavior, vehicles’ actual service intervals strongly differ. Hence, the3
+emissions associated with the production of spare parts and vehicles’
+maintenance are neglected within the scope of this paper. Therefore,
+the total CO2-eq. utilization emissions 𝐸util,tot can be calculated as
+𝐸util,tot = 𝑐WLTP ⋅ 𝑒WtW ⋅ 𝑆lifetime (4)
+with 𝑐WLTP and 𝑆lifetime being the relative energy/fuel consumption,
+based on the Worldwide Harmonized Light-Duty Vehicles Test Proce-
+dure (WLTP), for example given in L/100 km, and the expected vehicle
+life time in km, respectively. The relative CO2-eq. WtW emissions 𝑒WtW
+are for example given in kg CO2 − eq.∕L. As schematically depicted
+in [7], the relative WtW emissions can be separated according to
+𝑒wtw = 𝑒wtt + 𝑒ttw (5)
+with 𝑒wtt and 𝑒ttw being the Well-to-Tank (WtT) and the Tank-to-Wheel
+(TtW) emissions. Considering the scheme in [7], the WtT emissions
+typically consider the processes of the energy source extraction, the
+energy carrier production and the energy carrier distribution, whereas
+the TtW emissions consider only the energy conversion process to
+actually propel the vehicle.
+The second-life usage of vehicle batteries, such as described in [30],
+can reduce a vehicle’s utilization emissions, but this effect is not
+considered within the scope of this paper.
+2.2.1. Tank-to-wheel emissions during the worldwide harmonized light-duty
+vehicles test procedure
+To estimate vehicles’ relative fuel/energy consumption and the
+relative CO2-eq. TtW emissions, standardized driving cycles are typi-
+cally used. In 2017, the WLTP succeeded the New European Driving
+Cycle (NEDC) as the globally standardized test procedure to determine
+passenger vehicle’s driving consumption and driving emissions. This
+driving cycle should produce more realistic results than the replaced
+NEDC by being approximately 50% longer in time and it comprises
+higher absolute driving speeds [31,32]. In general, the WLTP consists
+of four parts, referred to as Worldwide Harmonized Light-Duty Vehicle
+Test Cycles (WLTC), with low, medium, high and extra-high driving
+speeds. Overall, the WLTP’s time duration is 1800 s and its total driving
+range is about 23 km, as shown in [33]. The WLTP’s speed profile is
+depicted in Fig. 2.
+Typically, driving cycle tests are conducted in a laboratory envi-
+ronment and the test vehicle is only operated on a dynamometer test
+bench.
+The emissions of conventional ICEVs can be directly measured from
+the exhaust gas emitted from the tail pipes. Thus, the relative CO2
+equivalent TtW emissions of ICEVs can be directly calculated according
+to
+𝑒ttw =
+𝐸CO2 ,tot
+𝐷WLTP
+(6)
+with 𝐸CO2 ,tot and 𝐷WLTP being the measured total CO2-eq. emissions
+and the WLTPs driving distance, respectively.
+In contrast, the measurement of PHEVs’ emissions is more difficult,
+since PHEVs can be propelled by both the electric motor (which does
+not locally emit any CO2) or the internal combustion engine. Therefore,
+a strategy for calculating PHEVs’ overall emissions was elaborated
+and appointed in the Amendment 4 of the United Nations Global
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.
+𝐸
+w
+t
+r
+a
+t
+c
+d
+c
+o
+Fig. 2. Speed profile of the WLTP, consisting of Low (blue), Medium (orange), High (green) and Extra-high (yellow) speed part.w
+v
+k
+3
+t
+c
+c
+T
+g
+c
+c
+o
+s
+v
+p
+e
+g
+h
+a
+d
+t
+c
+o
+m
+Technical Regulation on Worldwide Harmonized Light-Duty Vehicles
+Test Procedures (ECE/TRANS/180/Add.15) [34]. In a nutshell, PHEVs’
+battery energy and fuel consumption during the WLTP must be fairly
+distinguished. Therefore, a Utility Factor (UF) shall be used, which is
+defined as the ratio between the distance driven in battery ‘charge
+depleting’ mode divided by the WLTP’s total distance [35,36]. With the
+measured emissions in each cycle and the calculated UF, the amount of
+the total CO2 emissions corresponds to
+CO2 ,tot = 𝑈𝐹 ⋅ 𝐸CO2 ,CD + (1 − 𝑈𝐹 ) ⋅ 𝐸CO2 ,CS (7)
+ith 𝐸CO2 ,CD and 𝐸CO2 ,CS being the CO2 emissions associated with
+he ’charge depleting’ and ’charge sustaining’ mode, respectively. The
+elative CO2-eq. TtW emissions of PHEVs can similarly be calculated
+s given in (6). Nonetheless, when assessing PHEVs’ WtT emissions,
+he relative electrical and the fuel consumption must be separately
+onsidered.
+In comparison, BEVs’ and FCEVs’ CO2 emissions during driving are
+efined to be zero, since they do not locally emit any CO2. Their
+fuel or electricity consumption, however, must be measured. Typically,
+vehicles’ TtW emissions are issued by manufacturers’ sales divisions,
+since they are important for vehicles’ taxation according to current
+regulations.
+2.2.2. Uncertainty of well-to-tank emissions
+As mentioned before, the TtW emissions only cover a part of the
+total utilization emissions. Therefore, to fully assess the utilization
+emissions, the WtT emissions must be considered as well. These should
+include all emissions from the production, the storage and, further, the
+shipping/transportation of the used fuel or transmission of the electric
+energy. However, the WtT emissions cannot be estimated or quantified
+using standardized test procedures, since these can differ based on dif-
+ferent aspects. As investigated and stated in [37,38], the WtT emissions
+significantly vary depending on the considered location. For example
+in [9], the authors analyze the shipping emissions per liter of crude
+oil when shipped along various trade lanes. When shipped from the
+Arabian Gulf to North America, the maritime transport would account
+for up to 11% of the WtT emissions. In contrast, when shipped from
+the Arabian Gulf to Southeast Asia, the maritime transport corresponds
+only to 3%. Therefore, it must be taken into account that the LCA
+omparisons, such as given in [17,19,23,24], are to a certain extent4
+nly locally valid. l2.3. Recycling emissions
+The last GHG emission in a vehicle’s life are associated with the
+recycling after decommissioning. Normally, the final recycling pro-
+cess [39,40] actually reduces vehicles’ CO2-eq. emission footprint, since
+the recycled material from scrapped cars can be reused to a great
+extent. As described in [41], the production of traction batteries is
+often controversially discussed to be very carbon intensive, but the
+proper recycling can significantly reduce BEVs’ total life-cycle CO2-eq.
+emissions.
+The total CO2-eq. recycling emissions 𝐸recyc,tot are calculated as
+𝐸recyc,tot = 𝑚veh,body ⋅ 𝑒recyc,body + 𝐶bat ⋅ 𝑒recyc,bat (8)
+ith 𝑒recyc,body and 𝑒recyc,bat being the relative recycling coefficients for
+ehicles’ bodies, given in kg CO2 − eq.∕kg, and batteries, given in
+g CO2 − eq.∕kWh, respectively.
+. Vehicle database and review of life-cycle assessment parame-
+ers
+For the life-cycle emission comparisons, a database of vehicles was
+reated, which should fairly represent the majority of all commer-
+ially available passenger cars, such as Volkswagen Passat, Audi A4,
+esla Model 3, Toyota Mirai, Mercedes-Benz C 300 d, etc. The main
+oal was to include as many different vehicle models as possible,
+onsidering various manufacturers, which is quite cumbersome when
+onsidering all commercially-available vehicle variants. For this reason
+nly one chassis variant with the most basic equipment was con-
+idered for each vehicle model and only two drivetrain variants per
+ehicle were selected, representing the vehicle’s lowest and highest
+ossible peak motor power. Moreover, different publicly accessible
+nergy sources were considered, such as gasoline, diesel, liquid petrol
+as (LPG), compressed natural gas (CNG), compressed biogas (CBG),
+ydrogen (H2) and electricity. When energy sources other than gasoline
+nd diesel were possible to order for a specific vehicle, corresponding
+rive train variants for each energy source were additionally added. In
+otal, 790 different vehicle variants were considered.
+The values of vehicles’ curb weight 𝑚veh, relative WLTP energy
+onsumption 𝑐WLTP and battery gross capacity 𝐶bat were obtained from
+fficial product specification sheets, major car journals or review infor-
+ation websites, such as given in [42].
+As described in [43], vehicles’ production emissions can differ
+ocally. For example, according to [43], the production emissions of
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.
+C
+t
+t
+a
+f
+V
+B
+B
+t
+f
+s
+g
+4
+i
+o
+d
+W
+s
+e
+𝜉
+t
+s
+1
+e
+v
+F
+w
+w
+c
+f
+r
+t
+s
+r
+a compact car (𝑚veh = 1292.8 kg) correspond to 9596.9 kg CO2 − eq. in
+hina, whereas in the US these are only 6241.2 kg CO2 − eq. Within
+he scope of this paper, only one value should be chosen for each of
+he relative production emission coefficients 𝑒prod,body and 𝑒prod,bat . This
+pproach should simplify the LCA, but still allows to fairly compare dif-
+erent vehicle variants. The study in [44] compared different variants of
+olkswagen’s vehicle model Golf, such as its gasoline, diesel, CNG and
+EV variant. The relative production emissions 𝑒prod,body (excluding the
+EV’s lithium-ion battery) based on the values given in [44] correspond
+o 4.56 kg CO2 − eq.∕kg for the gasoline model, 4.73 kg CO2 − eq.∕kg
+or the diesel model and 4.16 kg CO2 − eq.∕kg for the CNG model. As
+imilarly described in [43,45], the relative production emissions for a
+asoline compact car (𝑚veh ≈ 1300 kg) produced in the USA range from
+.17 kg CO2 − eq.∕kg to 4.82 kg CO2 − eq.∕kg. Nevertheless, as described
+n [44], it is unclear which fraction of the BEV’s production emissions
+riginate from the battery pack. Based on [14,17,43,45], a similar pro-
+uction emission coefficient 𝑒prod,body can be concluded for BEVs’ body.
+ith the help of BEVs’ nominal battery capacity 𝐶bat and batteries’
+pecific energy 𝜉bat , the weight of a vehicles traction battery can be
+stimated according to (3). As listed in [46], batteries’ specific energy
+bat can be assumed to be about 200Wh/kg. Furthermore, according
+o [27,47], the most recent studies estimate batteries’ production emis-
+ions coefficient 𝑒prod,bat , ranging from 61.6 kg CO2 − eq.∕kWh up to
+06.0 kg CO2 − eq.∕kWh. within the scope of this paper, a production
+mission coefficient 𝑒prod,body of 4.56 kg CO2 − eq.∕kg was selected for
+ehicles’ bodies (corresponding to that of the gasoline model in [44]).
+urthermore, an emissions coefficient 𝑒prod,bat of 83.5 kg CO2−eq.∕kWh,
+hich corresponds to the average value of the before mentioned range,
+as selected for EV batteries.
+As described in [48], vehicles’ WtW emissions 𝑒wtw approximately
+orrespond to 2.83 kg CO2 − eq.∕L for gasoline, 3.18 kg CO2 − eq.∕L
+or diesel, 1.83 kg CO2 − eq.∕L to 2.16 kg CO2 − eq.∕L for LPG and
+2.39 kg CO2 − eq.∕kg to 2.96 kg CO2 − eq.∕kg for CNG. The value for
+CBG from municipal waste is given with 0.749 kg CO2 − eq.∕kg by [49]
+and the value for commercially available hydrogen (the majority is gray
+hydrogen [50]) is given with 9.13 kg CO2 − eq.∕kg by [51]. Within the
+scope of this paper, two different WtW emission values are considered
+for electricity. First, the carbon intensity of the German power gen-
+eration is considered, which corresponds to 0.401 kg CO2 − eq.∕kWh
+according to [52]. Second, the carbon intensity of electricity produced
+only from renewable energy sources is considered, which corresponds
+to 0.003 kg CO2−eq.∕kWh to 0.068 kg CO2−eq.∕kWh according to [53].
+For the LCA comparisons the average value of the carbon intensity
+range is chosen, which corresponds to 0.036 kg CO2 − eq.∕kWh. Since
+BEVs’ TtW emissions 𝑒ttw are zero, the WtT emissions 𝑒wtw correspond
+to that of the electricity supply. Furthermore, to assess the total life-
+cycle utilization emissions, vehicles’ lifetime must be specified. In
+2019, the average distance German car drivers traveled per year was
+about 14 610 km according to [54]. As issued by the German Federal
+Motor Transport Authority in [55], about 3.6 million cars were newly
+registered in 2019 and the total amount of registered passenger vehicles
+increased from 47.1 million to about 47.7 million. Thus, with the values
+from [54,55] it is valid to suggest an average vehicle lifetime 𝑆lifetime
+of about 230 000 km, which corresponds to about 15.7 years.
+In [56,57], the relative recycling emissions of vehicles’ body
+𝑒recyc,body are approximated for a mid-size car, corresponding to
+−2.33 kg CO2−eq.∕kg and −3.52 kg CO2−eq.∕kg, respectively. This corre-
+sponds to an average recycling coefficient 𝑒recyc,body of −2.93 kg CO2 −
+eq.∕kg. The relative battery recycling emissions 𝑒recyc,bat of the BEVs
+eviewed in [56,57] approximately correspond to −41.1 kg CO2−eq.∕kg
+and −55.7 kg CO2 − eq.∕kg, respectively. Thus, the average value of
+he recycling coefficients presented in [56,57] is chosen in here, corre-
+ponding to −48.4 kg CO2−eq.∕kg. In Table 1, the emission coefficients5
+eviewed before are given.4. Results and discussion
+This section presents and discusses the obtained total CO2-eq. life-
+cycle emissions of the 790 vehicle variants based on the modeling
+approaches introduced in Section 2, including the emission parameters
+reviewed in Section 3, and the vehicle database itself. Furthermore, it
+discusses this study’s results, problems and practical implications.
+4.1. Total life-cycle emission comparison of mid-size car selection
+At first, within this subsection, only a small selection of vehicles
+from the database is considered. Furthermore, the vehicle production,
+utilization, including the WtW, and recycling emissions are separately
+quantified and compared. These small comparisons should transpar-
+ently illustrate the chosen methodology before introducing the entire
+results of the 790 vehicle variants in the subsequent subsections. For
+this purpose, an example selection of several vehicles from the mid-
+size sedan sector (D-segment) is chosen. This vehicle class offers all
+included energy sources, apart from LPG, and the vehicle chassis as
+well as the peak motor power ratings are comparable. Moreover, the
+selected vehicle variants give a good general representation of vehicles’
+life-cycle GHG emissions relative to different powertrains and energy
+sources. The selected vehicle variants and their required parameters
+for the emission calculations are given in Table 2. With these values,
+the overall GHG emissions can be calculated as described before in
+Section 2. The bar chart in Fig. 3 depicts the obtained total CO2-eq. life-
+cycle emissions and, as can be seen, it is distinguished between the
+production, utilization and recycling emissions.
+Considering the production emissions of the selected gasoline vehi-
+cle, a Volkswagen Passat 2.0 TSI, as a baseline, it can be noticed that
+the selected diesel vehicle, Mercedes-Benz C 300 d, and the CNG/CBG
+vehicle, Audi A4 40 g-tron, are characterized by a similar amount
+of production emissions. Their production emissions differ from the
+baseline by −1.1% and 0.7%, respectively, due to the vehicles’ mostly
+similar body and drivetrain. The obtained production emission values
+for the selected electrified vehicles, such as the FCEV (Toyota Mirai),
+gasoline PHEV (VW Passat 1.4 TSI GTE) and diesel PHEV (Mercdes-
+Benz C 300 de) are increased by 17%, 15% and 35%, respectively.
+Since the FCEV is equipped with only a small Li-Ion battery and the
+fuel cell system is not considered in detail, its production emissions
+are relatively low compared to other EVs. The gasoline PHEV’s small
+increase in production emissions compared to the similarly sized ICEV
+can be explained by the fact that although an emission-intensive Li-
+Ion battery is included, the conventional internal combustion engine is
+replaced by a smaller, lighter and less powerful version. Since the diesel
+PHEV’s internal combustion engine is the same as the diesel ICEV’s,
+the production emission surplus is significantly higher in comparison.
+Comparing the BEV (Tesla Model 3 SP) to the baseline vehicle, its
+production emissions are increased by 49%. This difference equals
+about 1294 L of fuel. With this amount, the gasoline car could travel
+about 18 000 km (one year and three months). Due to the battery system,
+the GHG emissions required for the production of the selected BEV are
+typically higher than those of the combustion engine, hydrogen and
+PHEV vehicles depicted in Fig. 3. The influence of the battery capacity
+on the production emissions can be recognized, because PHEVs have
+smaller batteries than BEVs and, thus, emit less GHG during production.
+In contrast, the combined share of the selected BEV’s production
+and utilization emissions is significantly reduced in comparison to that
+of the Volkswagen Passat 2.0 TSI (gasoline), Mercedes-Benz C 300 d
+(diesel) or the Audi A4 40 g-tron (CNG). From Fig. 3 it becomes
+clear that the largest amount of the GHG emissions results from the
+vehicle utilization in almost all cases. Only the utilization emissions
+from the CBG vehicle and the BEV, when recharged with renewable
+energy exclusively, are relatively small compared to their production
+emissions.
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.
+G
+i
+e
+r
+r
+o
+b
+Table 1
+Reviewed values used for equivalent CO2 emission calculations.
+Emission source Coefficient Value Unit Reference
+Production emissions vehicle body 𝑒prod,body 4.56 kg CO2 − eq.∕kg [44]
+Production emissions battery pack 𝑒prod,bat 83.50 kg CO2 − eq.∕kWh [27,47]
+Gasoline - WtW 𝑒wtw 2.83 kg CO2 − eq.∕L [48]
+Diesel - WtW 𝑒wtw 3.18 kg CO2 − eq.∕L [48]
+LPG - WtW 𝑒wtw 2.00 kg CO2 − eq.∕L [48]
+CNG - WtW 𝑒wtw 2.68 kg CO2 − eq.∕kg [48]
+CBG - WtW 𝑒wtw 0.749 kg CO2 − eq.∕kg [49]
+H2 - WtW 𝑒wtw 9.13 kg CO2 − eq.∕kg [51]
+Conventional electricity - WtW 𝑒wtw 0.401 kg CO2 − eq.∕kWh [52]
+Renewable electricity - WtW 𝑒wtw 0.036 kg CO2 − eq.∕kWh [53]
+Recycling emissions vehicle body 𝑒recyc,body −2.93 kg CO2 − eq.∕kg [56,57]
+Recycling emissions battery pack 𝑒recyc,bat −48.4 kg CO2 − eq.∕kWh [56,57]
+Total lifetime traveled distance 𝑆lifetime 230 000 km [54,55]
+Energy density 𝜉bat 0.200 kWh/kg [46]Table 2
+Relevant modeling parameters of mid-size car selection and obtained total CO2-eq. life-cycle emissions.
+Energy source Vehicle model Peak motor power Curb weight Fuel consumption Electricity consumption Battery gross capacity Total CO2-eq.
+Gasoline Volkswagen Passat 2.0 TSI 206 kW 1653 kg 7.2 L∕100 km 0 kWh∕100 km 0 kWh 49 559 kg
+Diesel Mercedes-Benz C 300 d 180 kW 1635 kg 4.9 L∕100 km 0 kWh∕100 km 0 kWh 38 504 kg
+CNG Audi A4 40 g-tron 125 kW 1665 kg 3.9 kg∕100 km 0 kWh∕100 km 0 kWh 26 754 kg
+CBG Audi A4 40 g-tron 125 kW 1665 kg 3.9 kg∕100 km 0 kWh∕100 km 0 kWh 9 432 kg
+H2 Toyota Mirai 135 kW 1900 kg 0.79 kg∕100 km 0 kWh∕100 km 2 kWh 19 740 kg
+Gasoline PHEV Conv. Volkswagen Passat GTE 160 kW 1730 kg 1.4 L∕100 km 11.5 kWh∕100 km 13 kWh 22 889 kg
+Gasoline PHEV Renew. Volkswagen Passat GTE 160 kW 1730 kg 1.4 L∕100 km 11.5 kWh∕100 km 13 kWh 13 235 kg
+Diesel PHEV Conv. Mercedes-Benz C 300 de 225 kW 2060 kg 1.4 L∕100 km 18.7 kWh∕100 km 13.5 kWh 31 208 kg
+Diesel PHEV Renew. Mercedes-Benz C 300 de 225 kW 2060 kg 1.4 L∕100 km 18.7 kWh∕100 km 13.5 kWh 15 510 kg
+BEV Conv. Tesla Model 3 Standard Plus 239 kW 1684 kg 0 L∕100 km 14.3 kWh∕100 km 58 kWh 17 497 kg
+BEV Renew. Tesla Model 3 Standard Plus 239 kW 1684 kg 0 L∕100 km 14.3 kWh∕100 km 58 kWh 5 492 kgFig. 3. Total life-cycle emissions of mid-size car selection, including production, utilization and recycling emissions.In general, the results show that ICEVs using fossil fuels emit more
+HG during driving than vehicles utilizing renewable energy sources,
+ncluding CBG. In addition, the comparison shows that hybrid and fully
+lectrified vehicles significantly reduce the utilization emissions.
+The recycling emissions differ between the vehicles in a similar
+elation as the production emissions. For example, in addition to the
+ecycling of the vehicle chassis and body parts, the recycling of PHEVs’
+r BEVs’ batteries results in a large amount of extra GHG savings. Since
+attery recycling is currently not as efficient as the recycling of other6
+vehicle parts, the emission savings at vehicle recycling relative to the
+production emissions are smaller for EVs.
+4.2. Total life-cycle emissions relative to vehicle curb weight
+Due to the rolling and drag resistance forces, it is clear that heav-
+ier and larger vehicles consume more energy/fuel than lighter ones,
+which in turn results in higher driving emissions [58]. Additionally,
+since more material is needed for producing heavier vehicles, the
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.
+m
+b
+t
+s
+a
+i
+v
+t
+t
+𝐸
+i
+c
+f
+b
+E
+a
+L
+c
+N
+e
+F
+l
+c
+o
+l
+c
+h
+a
+w
+w
+g
+o
+m
+I
+E
+e
+4
+t
+p
+v
+i
+a
+r
+t
+t
+h
+m
+F
+p
+2
+a
+p
+c
+m
+t
+s
+7
+t
+r
+𝐸
+i
+f
+c
+(
+e
+p
+t
+t
+o
+h
+t
+e
+t
+f
+p
+e
+e
+t
+4
+e
+t
+c
+H
+Table 3
+Coefficients for normalized life-cycle emission estimation relative to the vehicle curb
+weight according to (9).
+Energy source 𝑎 𝑏 𝑐
+Gasoline 3.701 ⋅ 10−5 3.953 ⋅ 10−2 51.28
+Diesel 1.049 ⋅ 10−5 7.874 ⋅ 10−2 7.834
+LPG 0 1.087 ⋅ 10−1 6.439
+CNG 0 5.320 ⋅ 10−2 30.45
+CBG 0 1.997 ⋅ 10−2 8.509
+Gasoline PHEV Conv. 2.759 ⋅ 10−5 −2.253 ⋅ 10−2 65.98
+Gasoline PHEV Renew. 1.323 ⋅ 10−5 −5.429 ⋅ 10−3 30.07
+Diesel PHEV Conv. 0 6.343 ⋅ 10−2 1.226
+Diesel PHEV Renew. 0 −8.232 ⋅ 10−3 88.26
+BEV Conv. 0 4.510 ⋅ 10−2 9.892
+BEV Renew. 0 1.614 ⋅ 10−2 −2.970
+production emissions are increased as well. The increased emission
+savings through the vehicle recycling cannot counterbalance the before
+mentioned aspects. To illustrate this effect, Fig. 4 depicts the total life-
+cycle emissions of the 790 vehicle variants relative to their vehicle
+curb weight. The mid-size cars selected in Section 4.1 are indicated
+by arrow labels. All emissions values are purposefully normalized
+(𝐸life,tot∕𝑆lifetime[g/km]), because relative emissions values are com-
+only used for consumer information materials and the assessment
+asis for vehicle emission regulations. To illustrate the influence of
+he production emission deviation, for example due the location, the
+emi-transparent areas mark the possible best (61.6 kg CO2 − eq.∕kWh)
+nd worst case (106.0 kg CO2 − eq.∕kWh) scenarios. Moreover, for each
+ndividual energy source category, an emission function relative to the
+ehicle curb weight 𝑚veh is mathematically fitted, so that the distinct
+rends are easily visible. For the curve fitting, a quadratic equation with
+he form according to
+life,tot (𝑚veh) = 𝑎 ⋅ 𝑚2
+veh + 𝑏 ⋅ 𝑚veh + 𝑐 (9)
+s used, with 𝑎, 𝑏 and 𝑐 being the coefficients to be estimated/fitting
+oefficients. In Table 3, the parameterized values of the coefficients
+or each individual energy source can be found. From Fig. 4, it can
+e seen that ICEVs generally emit more GHG than electrified vehicles.
+specially, heavy gasoline vehicles, such as Sport Utility Vehicles, have
+very high individual impact on the overall emissions of vehicle fleets.
+PG vehicles show a similar relation, whereas diesel and CNG vehi-
+les generally produce slightly less emissions than gasoline vehicles.
+evertheless, when refueling CNG vehicles with CBG, the total lifetime
+missions can be reduced by about 65%. Electrified vehicles such as
+CEVs, PHEVs and BEVs emit significantly less GHGs during their
+ifetime than their respective ICEV counterparts even if recharged with
+onventional electricity. When recharging with renewable electricity
+nly, additional emission savings of up to 70% over the entire vehicle’s
+ife-cycle can be achieved. When comparing FCEVs to ICEVs, a signifi-
+ant reduction in CO2-eq. emissions can be seen, despite the nature of
+ydrogen’s production from natural gas.
+Based on the obtained results, a conclusion can be drawn that BEVs
+nd CNG/CBG vehicles achieve the lowest total life-cycle emissions
+hen exclusively charged with green electricity and refueled only
+ith biogas, respectively. Despite the fact that electrified vehicles, in
+eneral, are heavier than conventional vehicles due to the extra weight
+f the Li-Ion batteries and, in the case of PHEVs, the additional electric
+otors, these typically achieve higher life-cycle emission savings than
+CEVs. Only when comparing light, and thus small, ICEVs with heavy
+Vs or PHEVs, no emission savings can be achieved if renewable
+lectricity is not available.
+.3. Total life-cycle emissions relative to peak motor power
+Generally, heavier vehicles require an increased peak motor power
+o reach dynamic driving characteristics similar to city, small or com-
+act cars. Therefore, vehicle manufacturers equip heavier vehicles with7
+s
+Table 4
+Coefficients for normalized life-cycle emission estimation relative to the peak motor
+power according to (10).
+Energy source 𝑎 𝑏 𝑐
+Gasoline 3.934 ⋅ 10−6 5.981 ⋅ 10−1 100.3
+Diesel 0 5.260 ⋅ 10−1 96.05
+CNG 0 3.858 ⋅ 10−1 70.14
+CBG −1.335 ⋅ 10−3 3.663 ⋅ 10−1 14.96
+Gasoline PHEV Conv. −3.628 ⋅ 10−4 4.318 ⋅ 10−1 56.38
+Gasoline PHEV Renew. −2.012 ⋅ 10−4 2.449 ⋅ 10−1 29.32
+BEV Conv. −1.296 ⋅ 10−4 2.000 ⋅ 10−1 63.75
+BEV Renew. −1.209 ⋅ 10−4 1.058 ⋅ 10−1 13.60
+more powerful drivetrains, as illustrated in Fig. 5 showing the rated
+peak motor power 𝑃veh,max of the 790 vehicle variants relative to the
+ehicle curb weight 𝑚veh. The mid-size cars selected in Section 4.1 are
+ndicated by arrow labels. It can be seen that none of the commercially
+vailable vehicles with a curb weight of less than 1000 kg has a power
+ating of more than 100 kW. All vehicles with a higher power rating
+han 200 kW have a vehicle curb weight of at least 1400 kg. Additionally,
+here are no vehicles with a lower power than 100 kW that have a
+igher curb weight than 1800 kg. The vast majority of vehicles weighs
+ore than 2000 kg and has a peak motor power of more than 200 kW.
+urthermore, it can be seen that gasoline vehicles have the highest
+ower-to-weight ratio as long as the curb-weight does not exceed
+000 kg. For higher curb weights, the power-to-weight ratio of BEVs
+nd PHEVs is comparable to that of gasoline vehicles.
+Considering these results, it can be seen that vehicles with a higher
+eak motor power have an increased curb weight and, hence, these
+onsume more fuel/energy [58]. Thus, it becomes obvious that com-
+ercially available vehicles with a high power rating emit more GHG
+han those with a lower power rating. To depict this relation, Fig. 6
+hows the normalized CO2-eq. life-cycle emissions 𝐸life,tot∕𝑆lifetime of the
+90 vehicle variants relative to the peak motor power 𝑃veh,max. Similar
+o (9), for each individual energy source category, an emission function
+elative to the peak motor power with the form according to
+life,tot (𝑃veh,max) = 𝑎 ⋅ 𝑃 2
+veh,max + 𝑏 ⋅ 𝑃veh,max + 𝑐 (10)
+s determined, with 𝑎, 𝑏 and 𝑐 being the coefficients to be estimated/
+itting coefficients. In Table 4, the parameterized values of the coeffi-
+ients for each individual energy source are listed.
+It can be seen that the emission-power effect is more pronounced
+derivative of 𝐸life,tot (𝑃veh,max) is higher) for ICEVs than for BEVs. For
+xample, the coefficient 𝑏 shows that the derivative of the emission-
+ower ratio of gasoline vehicles is about three to six times higher than
+hat of BEVs when recharged with conventional and renewable elec-
+ricity respectively. Furthermore, Fig. 6 shows that the GHG emissions
+f BEVs, when recharged with conventional electricity, correspond to
+alf (for 𝑃veh,max < 100 kW) down to a third (for 𝑃veh,max ≈ 500 kW) of
+hose of ICEVs. When exclusively recharged with green electricity, the
+missions are even reduced by a factor of 10 (for 𝑃veh,max < 100 kW)
+o 15 (for 𝑃veh,max ≈ 500 kW). This relation can be explained by the
+act that ICEVs in comparison to BEVs and PHEVs do not have the
+ossibility to utilize regenerative braking, which converts the kinetic
+nergy of the vehicle back to electrical energy. Additionally, the WLTP
+fficiency of a combustion engine (≈30% [59]) is significantly lower
+han that of an electric drivetrain (>90% [60,61]).
+.4. Problems in data acquisition and comparability
+During the acquisition of the vehicle data, several problems were
+ncountered, which are described in the following paragraphs. For
+he calculation of the production and recycling emissions, the vehicle
+urb weight and the battery gross capacity have been primarily used.
+owever, manufacturers often do not provide the data in a globallytandardized form. Thus, they either provide the German Institute for
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.Fig. 4. Normalized CO2-eq. life-cycle emissions relative to the vehicle curb weight.Fig. 5. Peak motor power relative to the vehicle curb weight.Standardization (DIN) (car with all the fluids necessary for operation,
+including a 90% full tank of fuel) or EU standard value (DIN figure plus
+75 kg for the driver) for the vehicle curb weight. Furthermore, vehicle
+manufactures might publicly use the battery net instead of the gross
+capacity, since it is of more interest for the consumer. Therefore, inad-
+equate and missing vehicle data had to be adapted or accumulated from
+sources like car magazines’, websites or online forums. Additionally, it8
+is not clear how the supply chains differ between vehicle manufacturers
+and different vehicles produced by the same car brand. Moreover, the
+actual manufacturing location of each vehicle as well as the origin of
+the battery cells and raw materials can have an impact on vehicles of
+the same type. Since only the most basic configuration of each vehicle
+has been considered for the comparisons, all additional equipment was
+neglected. For example, this means that the production emissions of
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.Fig. 6. Normalized CO2-eq. life-cycle emissions relative to the peak motor power.luxury vehicle versions’ leather seats, cameras, Radio Detection And
+Ranging (RADAR) and Light Detection And Ranging (LiDAR) sensors,
+different transmission options, all-wheel-drive systems, etc. were not
+necessarily included in the calculations.
+Furthermore, the emissions associated with the fuel production and
+provisioning can strongly differ depending on the location. Especially,
+the emissions values for CBG or hydrogen in comparison to fossil
+fuels can significantly differ. This is due to the reason that there are
+multiple profitable production techniques for CBG and hydrogen, which
+have different climate change impacts. Similarly to these alternative
+fuels, the WtT emissions of gasoline and diesel caused by crude oil
+production, shipping and refining are subject to the location of the
+processes. Since most countries obtain their fuels from a variety of
+different locations, an averaged value is used in this study. Further
+detailing of each individual fuel’s WtT emissions exceeds the scope of
+this paper.
+Generally, the large-scale availability of certain energy sources was
+also not extensively considered within the scope of this paper. For
+instance, CNG/CBG fueling stations are available in most parts of
+Europe, but these are still rare in comparison to LPG stations. Both LPG
+and CNG vehicle types are usually suitable for bivalent usage, which
+means that they have an additional gasoline tank to extend their driving
+range. However, the utilization of small amounts of gasoline has not
+been taken into account for these vehicles within the study presented
+here. Although CBG powered vehicles produce significantly less GHG
+emissions in comparison to ICEVs, the sustainable supply of biogas is
+limited to the available amount of manure, waste, etc. Moreover, the
+emissions produced by cattle farming, from which the manure partially
+originates for biogas production, are not included in this calculation
+since only the waste products are used.
+Due to the usage of the UF for PHEVs, the WLTP energy consump-
+tion values are potentially more inaccurate compared to the real-world
+consumption of other vehicle types. The WLTP values suggest that
+PHEVs are recharged almost daily, because of their limited electric
+driving range, which is not possible for many vehicle owners/drivers.
+Additionally, manufacturers typically provide the fossil fuel consump-
+tion of PHEVs, whereas the electric energy consumption might be9
+omitted because it is not part of any CO2 emission regulations. How-
+ever, for this study, this aspect was crucial for the proper calculation
+of the WtW emissions from PHEVs.
+Currently, only two different FCEVs are available for purchase on
+the market. Reliable studies on fuel cells’ production emissions are yet
+to be published. Especially, since the effects of mass production cannot
+be foreseen at the moment, the production emissions associated with
+the fuel cell itself are neglected within the scope of this paper. However,
+the emissions caused by the small traction battery used in FCEVs
+are included in the calculations underlying the vehicles’ production
+emissions.
+4.5. Discussion and practical implications
+The results obtained from this study show that although electrified
+vehicles produce more GHG during their production due to the energy
+intensive production of the Li-Ion batteries, their overall lifetime GHG
+emissions are lower compared to conventional vehicles. When used
+with renewable energies, their emissions can be further reduced. As
+expected, the total life-cycle GHG emissions are strongly dependent on
+the vehicles’ curb weight. As shown in Fig. 4 this dependence can be
+described as a quadratic function for ICEVs and as a linear function for
+EVs, respectively. This can be explained by EVs’ ability to regenerate
+some of the energy used to accelerate the vehicle when braking. While
+with ICEVs the production emissions as well as the fuel consumption
+increase with weight, this is only the case for production emissions
+with EVs. A similar phenomenon can be experienced with the emissions
+dependent on peak motor power. Here, the dependence is mostly linear
+for ICEVs while it is negatively quadratic for EVs. This can be explained
+by the fact that EVs with higher peak motor power tend to be more
+sporty and aerodynamic vehicles which therefore use less energy and
+produce less GHG emissions during utilization. The sensitivity analy-
+sis for different battery production emissions additionally shows that
+battery production only has a small impact on the total life-cycle GHG
+emissions of a vehicle.
+Comparing these results to other recent studies, similarities can be
+noticed. Comparing the production emissions from the single vehicle
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.comparison to the results obtained from [14], it can be seen that
+there are hardly any deviations within the results. The total life-cycle
+emissions are lower for the ICEV in [14], because only 200.000 km of
+total traveled distance until decommissioning were included into the
+calculation. However, the BEV’s total GHG emissions are lower in this
+study since it was assumed that the battery pack can be used until
+the vehicle’s EoL. The results on vehicle production emissions obtained
+by [17] are also similar to this study. The relative difference between
+the BEV’s and the ICEV’s production emissions is 59% compared to 49%
+in this study. As stated by [26], the production emissions contribute
+to vehicles’ total GHG emissions by 10% in the case of an ICEV and
+by 40% in the case of a BEV, respectively. These values are similar to
+this study’s results for ICEVs, which are 15 to 19%. BEVs, however,
+emit 58% of their life-cycle emissions during production if conventional
+electricity is used. The differences can be explained mainly by the
+used drive cycles and total traveled distance as well as the electricity’s
+composition. Comparing the findings in [5] to this study, it becomes
+clear that the results in the single vehicle comparison are realistic.
+Although a different vehicle category and total distance traveled was
+considered, BEVs generally emit the lowest amount of GHG. PHEVs
+and vehicles with alternative fuels are comparable to each other while
+gasoline and diesel ICEVs emit the highest amount of GHG. Since the
+total distance traveled was presumed to be only 150.000 km in [5], the
+emissions per km are overall higher compared to this study.
+Generally, the obtained results can be used to approximate the
+individual GHG emissions from a certain passenger car compared to
+other vehicles. This is possible for most of the currently, commercially
+available vehicles in Europe but also for similar vehicles in other mar-
+kets. The results from this study can help consumers to choose the right
+vehicle for their personal use if GHG emissions are an important influ-
+ence on the decision. Furthermore, companies can estimate the impact
+on their GHG emissions when changing their vehicle fleet from conven-
+tional vehicles to vehicles with alternative powertrains. However, the
+calculations within this study only apply to the chosen values for the
+specific emissions, fuel consumption measured in the WLTP cycle and
+for 230.000 km of total traveled distance until decommissioning. The
+real-world emissions strongly depend on these parameters and need
+to be adapted to the vehicles’ specific application case. Furthermore,
+vehicles with hybrid powertrains or multiple possible fuels such as
+CNG/CBG/LPG vehicles produce a variable amount of GHG during
+utilization dependent on the actually used fuel or energy source.
+5. Conclusion and future outlook
+This paper has dealt with the modeling and quantification of the
+total CO2-eq. life-cycle emissions from a broad selection of commer-
+cially available passenger cars with different powertrains and energy
+sources. In total, 790 different vehicle variants are considered. The
+total life-cycle emissions are divided into the production, utilization
+and recycling emissions. Thus, this paper provides comprehensive and
+holistic comparisons of vehicles’ GHG emissions.
+The results show that the combined sum of the production and re-
+cycling emission values (absolute) of gasoline, diesel and CNG vehicles
+are small in comparison to the utilization emissions (<33%). For exam-
+ple, the obtained utilization emissions of a Volkwagen Passat 2.0 TSI
+(gasoline) correspond to 46 865 kg CO2-eq., whereas the production and
+recycling emissions are about 7538 kg CO2-eq. and −4843 kg CO2-eq.,
+respectively. The additional production emissions of similarly sized
+PHEVs compared to classical combustion engine vehicles vary from
+15% to 37%, while for BEVs, the production emissions are increased
+by about 49%. For example, the additional production emissions of
+a Tesla Model 3 SP approximately correspond to the driving emis-
+sions of a Volkwagen Passat 2.0 TSI after 18 000 km. Similar results
+have been obtained for the vehicle recycling emissions, which have
+a positive climate change impact (emission saving). These counter-
+balance the climate change impact of the production emissions by a10large extent (60% to 65%). Compared to gasoline powered cars, diesel
+vehicles can reduce the utilization emissions by 24%, CNG vehicles
+by 49%, FCEVs by 65%, gasoline PHEVs by 58%, diesel PHEVs by
+41% and BEVs by 72%, when using conventional electricity (Ger-
+many; 0.401 kg CO2 − eq.∕kWh). When exclusively refueling with CBG
+or recharging with green electricity, the emissions savings are 86% for
+the CBG vehicle, 79% for the gasoline PHEV, 75% for the diesel PHEV
+and 97% for the BEV.
+Overall, it has been shown that vehicles with higher curb weight
+produce more GHG emissions both during production and utilization
+(as well as in total). For vehicles with combustion engines, this corre-
+lation can be approximated with a quadratic function while it is rather
+linear for electrified vehicles. Considering the total vehicle life-cycle
+emissions relative to the peak motor power, a linear correlation has
+been observed. Nonetheless, the observed gradients for ICEVs is larger
+than those for BEVs. For example, the GHG emissions of BEVs in com-
+parison to ICEVs are reduced by a factor of 10 (for 𝑃veh,max < 100 kW)
+to 15 (for 𝑃veh,max ≈ 500 kW), when exclusively recharged with green
+electricity.
+Summarizing the key-results; it has been shown that BEVs produce
+the lowest amount of total life-cycle emissions, especially when using
+electricity produced from renewable energy sources. Up until today,
+the majority of commercially available hydrogen is produced from
+natural gas, which worsens the actual climate change impact of FCEVs
+in comparison to BEVs (using green electricity). The GHG emissions
+emitted by FCEVs are lower than those of CNG vehicles. Nevertheless,
+when fueled with CBG, the utilization emissions of CNG vehicles can
+be significantly reduced.
+Based on the mentioned results, the following major conclusions
+can be drawn. Fully electrified vehicles, such as BEVs and FCEVs,
+and biogas powered gas vehicles should be the favored solutions for
+vehicle owners. It is important that the used electricity, hydrogen and
+biogas is produced in sustainable and environmentally friendly ways,
+which might be economically difficult for biogas and hydrogen when
+considering a larger scale.
+Since fossil energy sources will likely lose parts of their current
+market share, in a future work updated emission values need to be used
+for all calculations. This could lead to a larger production of biofuels
+and, thus, ICEVs could become more competitive to EVs again, as for
+example shown by CBG vehicles in this study. A future version of this
+study could also increase the complexity of the acquired data. Through
+a potential usage of the official vehicle registration statistics, the num-
+ber of different vehicles can be increased. Potentially, emissions caused
+by vehicle development could be estimated by the sales figures as well
+as the country’s energy mix in which the development took place.
+In Addition to an overall larger quantity of different vehicles, the
+production locations could be used to estimate the GHG emissions
+of the respective supply chains. In the course of this, for each EV,
+the production location of the batteries can be used to determine the
+exact production emissions. All the necessary data can be acquired
+by governmental organizations like the German Kraftfahrt-Bundesamt.
+Since the real-world fuel consumption or real driving emissions of every
+vehicle must be provided by vehicle manufacturers in the future, the
+accuracy of the results, especially for PHEVs (no UF would be required
+any longer), could be improved.
+As previously mentioned in 4.4, there were some problems to be
+faced by this study which can be solved within future works. LCA
+generally has its limitations as stated by [62]. Accordingly, energy
+and exergy analyses can be used as an alternative to LCA in future
+publications. Especially exergoenvironmental analyses, such as per-
+formed in [63] on different bioenergy systems, could be performed on
+passenger vehicles and their individual energy sources.
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.CRediT authorship contribution statement
+Johannes Buberger: Concept, Methodology, Formal analysis,
+Data curation, Visualization, Writing – original draft. Anton
+Kersten: Methodology, Formal analysis, Visualization, Supervision,
+Writing – original draft, Writing – review & editing. Manuel Kuder:
+Methodology, Formal analysis, Visualization, Writing – original
+draft, Writing – review & editing. Richard Eckerle: Methodology,
+Writing – review & editing, Project administration. Thomas Weyh:
+Supervision, Writing – review & editing, Project administration,
+Funding acquisition. Torbjörn Thiringer: Writing – review &
+editing, Funding acquisition.
+Declaration of competing interest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+Acknowledgment
+This research is funded by MORE (Munich Mobility Research Cam-
+pus), Germany as part of dtec.bw — Digitalization and Technology
+Research Center of the Bundeswehr which we gratefully acknowledge.
+References
+[1] Claeys Grégory, Tagliapietra Simone, Zachmann Georg, et al. How to make the
+European Green Deal work. JSTOR; 2019.
+[2] Pietzcker Robert C, Osorio Sebastian, Rodrigues Renato. Tightening EU ETS
+targets in line with the European Green Deal: Impacts on the decarbonization of
+the EU power sector. Appl Energy 2021;293:116914.
+[3] Alberti V, Caperna G, Colagrossi M, Geraci A, Mazzarella G, Panella F, Saisana M.
+Tracking EU citizens’ interest in EC priorities using online search data. The
+European green deal. Publications Office of the European Union; 2021, http:
+//dx.doi.org/10.2760/18216.
+[4] Ou Xunmin, Yan Xiaoyu, Zhang Xiliang, Liu Zhen. Life-cycle analysis on energy
+consumption and GHG emission intensities of alternative vehicle fuels in China.
+Appl Energy 2012;90(1):218–24.
+[5] Ternel Cyprien, Bouter Anne, Melgar Joris. Life cycle assessment of mid-
+range passenger cars powered by liquid and gaseous biofuels: Comparison with
+greenhouse gas emissions of electric vehicles and forecast to 2030. Transp Res
+D 2021;97:102897.
+[6] Parguel Béatrice, Benoit-Moreau Florence, Russell Cristel Antonia. Can evok-
+ing nature in advertising mislead consumers? The power of ‘executional
+greenwashing’. Int J Advert 2015;34(1):107–34.
+[7] Nordelöf Anders, Messagie Maarten, Tillman Anne-Marie, Söderman Maria Ljung-
+gren, Van Mierlo Joeri. Environmental impacts of hybrid, plug-in hybrid, and
+battery electric vehicles—what can we learn from life cycle assessment? Int J
+Life Cycle Assess 2014;19(11):1866–90.
+[8] Moro Alberto, Lonza Laura. Electricity carbon intensity in European Mem-
+ber States: Impacts on GHG emissions of electric vehicles. Transp Res D
+2018;64:5–14.
+[9] Greene Suzanne, Jia Haiying, Rubio-Domingo Gabriela. Well-to-tank carbon
+emissions from crude oil maritime transportation. Transp Res D 2020;88:102587.
+[10] Abdalla Abdalla M, Hossain Shahzad, Nisfindy Ozzan B, Azad Atia T, Da-
+wood Mohamed, Azad Abul K. Hydrogen production, storage, transportation
+and key challenges with applications: A review. Energy Convers Manage
+2018;165:602–27.
+[11] Zackrisson Mats, Avellán Lars, Orlenius Jessica. Life cycle assessment of lithium-
+ion batteries for plug-in hybrid electric vehicles–Critical issues. J Cleaner Prod
+2010;18(15):1519–29.
+[12] Reap John, Roman Felipe, Duncan Scott, Bras Bert. A survey of unresolved
+problems in life cycle assessment. Int J Life Cycle Assess 2008;13(5):374–88.
+[13] Yu Ang, Wei Yiqun, Chen Wenwen, Peng Najun, Peng Lihong. Life cycle
+environmental impacts and carbon emissions: A case study of electric and
+gasoline vehicles in China. Transp Res D 2018;65:409–20.
+[14] Kawamoto Ryuji, Mochizuki Hideo, Moriguchi Yoshihisa, Nakano Takahiro,
+Motohashi Masayuki, Sakai Yuji, Inaba Atsushi. Estimation of CO2 Emissions
+of internal combustion engine vehicle and battery electric vehicle using LCA.
+Sustainability 2019;11(9):2690.
+[15] Gustafsson Marcus, Svensson Niclas, Eklund Mats, Öberg Joel Dahl, Ve-
+habovic Aner. Well-to-wheel greenhouse gas emissions of heavy-duty transports:
+Influence of electricity carbon intensity. Transp Res D 2021;93:102757.11[16] Kristensson Johan. Stora utsläpp från elbilarnas batterier. 2021, https:
+//www.nyteknik.se/fordon/stora-utslapp-fran-elbilarnas-batterier-6851761.
+Swedish. (Accessed on 2021-10-15).
+[17] Qiao Qinyu, Zhao Fuquan, Liu Zongwei, Jiang Shuhua, Hao Han. Compara-
+tive study on life cycle CO2 emissions from the production of electric and
+conventional vehicles in China. Energy Procedia 2017;105:3584–95.
+[18] De Souza Lidiane La Picirelli, Lora Electo Eduardo Silva, Palacio José Carlos Es-
+cobar, Rocha Mateus Henrique, Renó Maria Luiza Grillo, Venturini Osvaldo José.
+Comparative environmental life cycle assessment of conventional vehicles with
+different fuel options, plug-in hybrid and electric vehicles for a sustainable
+transportation system in Brazil. J Cleaner Prod 2018;203:444–68.
+[19] Ma Hongrui, Balthasar Felix, Tait Nigel, Riera-Palou Xavier, Harrison An-
+drew. A new comparison between the life cycle greenhouse gas emissions
+of battery electric vehicles and internal combustion vehicles. Energy Policy
+2012;44:160–73.
+[20] Yazdanie Mashael, Noembrini Fabrizio, Heinen Steve, Espinel Augusto, Boulou-
+chos Konstantinos. Well-to-wheel costs, primary energy demand, and greenhouse
+gas emissions for the production and operation of conventional and alternative
+vehicles. Transp Res D 2016;48:63–84.
+[21] Temporelli Andrea, Carvalho Maria Leonor, Girardi Pierpaolo. Life cycle assess-
+ment of electric vehicle batteries: an overview of recent literature. Energies
+2020;13(11):2864.
+[22] Helmers Eckard, Leitão Joana, Tietge Uwe, Butler Tim. Co2-equivalent emissions
+from European passenger vehicles in the years 1995–2015 based on real-world
+use: Assessing the climate benefit of the European ‘‘diesel boom’’. Atmos Environ
+2019;198:122–32.
+[23] Nordelöf Anders, Romare Mia, Tivander Johan. Life cycle assessment of city
+buses powered by electricity, hydrogenated vegetable oil or diesel. Transp Res
+D 2019;75:211–22.
+[24] Zhou Taylor, Roorda Matthew J, MacLean Heather L, Luk Jason. Life cycle GHG
+emissions and lifetime costs of medium-duty diesel and battery electric trucks in
+Toronto, Canada. Transp Res D 2017;55:91–8.
+[25] Ellingsen Linda Ager-Wick, Singh Bhawna, Strømman Anders Hammer. The size
+and range effect: lifecycle greenhouse gas emissions of electric vehicles. Environ
+Res Lett 2016;11(5):054010.
+[26] Ambrose Hanjiro, Kendall Alissa, Lozano Mark, Wachche Sadanand, Fulton Lew.
+Trends in life cycle greenhouse gas emissions of future light duty electric
+vehicles. Transp Res D 2020;81:102287.
+[27] Emilsson Erik, Dahllöf Lisbeth. Lithium-ion vehicle battery production-status
+2019 on energy use, CO2 emissions, use of metals, products environmental
+footprint, and recycling. IVL Svenska Miljöinstitutet; 2019.
+[28] Romare Mia, Dahllöf Lisbeth. The life cycle energy consumption and greenhouse
+gas emissions from lithium-ion batteries. IVL Svenska Miljöinstitutet; 2017.
+[29] Finnveden Göran, Hauschild Michael Z, Ekvall Tomas, Guinée Jeroen, Hei-
+jungs Reinout, Hellweg Stefanie, Koehler Annette, Pennington David, Suh Sang-
+won. Recent developments in life cycle assessment. J Environ Manag
+2009;91(1):1–21.
+[30] Sathre Roger, Scown Corinne D, Kavvada Olga, Hendrickson Thomas P. Energy
+and climate effects of second-life use of electric vehicle batteries in California
+through 2050. J Power Sources 2015;288:82–91.
+[31] Mock Peter, Kühlwein Jörg, Tietge Uwe, Franco Vicente, Bandivadekar Anup,
+German John. The WLTP: How a new test procedure for cars will affect fuel
+consumption values in the EU. Int Counc Clean Transp 2014;9:35–47.
+[32] Pavlovic Jelica, Ciuffo B, Fontaras Georgios, Valverde Víctor, Marotta Alessandro.
+How much difference in type-approval CO2 emissions from passenger cars in
+europe can be expected from changing to the new test procedure (NEDC vs.
+WLTP)? Transp Res A 2018;111:136–47.
+[33] Dimaratos A, Tsokolis D, Fontaras G, Tsiakmakis S, Ciuffo B, Samaras Z.
+Comparative evaluation of the effect of various technologies on light-duty vehicle
+CO2 emissions over NEDC and WLTP. Transp Res Procedia 2016;14:3169–78.
+[34] United Nations. United Nations global technical regulation on worldwide harmo-
+nized light vehicles test procedures (WLTP), addendum 15 United Nations global
+technical regulation no. 15, amendment 4. 2018.
+[35] Smart John, Bradley Thomas, Salisbury Shawn. Actual versus estimated utility
+factor of a large set of privately owned Chevrolet Volts. SAE Int J Altern
+Powertrains 2014;3(1):30–5.
+[36] Pavlovic Jelica, Tansini Alessandro, Fontaras Georgios, Ciuffo Biagio, Otura Mar-
+cos Garcia, Trentadue Germana, Bertoa Ricardo Suarez, Millo Federico. The
+impact of WLTP on the official fuel consumption and electric range of Plug-in
+Hybrid Electric Vehicles in Europe. Tech. rep., SAE Technical Paper; 2017.
+[37] Di Lullo Giovanni, Zhang Hao, Kumar Amit. Evaluation of uncertainty in the
+well-to-tank and combustion greenhouse gas emissions of various transportation
+fuels. Appl Energy 2016;184:413–26.
+[38] Di Lullo Giovanni, Zhang Hao, Kumar Amit. Uncertainty in well-to-tank with
+combustion greenhouse gas emissions of transportation fuels derived from North
+American crudes. Energy 2017;128:475–86.
+[39] Sato Fernando Enzo Kenta, Furubayashi Takaaki, Nakata Toshihiko. Application
+of energy and CO2 reduction assessments for end-of-life vehicles recycling in
+Japan. Appl Energy 2019;237:779–94.
+Renewable and Sustainable Energy Reviews 159 (2022) 112158J. Buberger et al.[40] Soo Vi Kie, Compston Paul, Doolan Matthew. Interaction between new car design
+and recycling impact on life cycle assessment. Procedia Cirp 2015;29:426–31.
+[41] Dunn JB, Gaines L, Kelly JC, James C, Gallagher KG. The significance of li-ion
+batteries in electric vehicle life-cycle energy and emissions and recycling’s role
+in its reduction. Energy Environ Sci 2015;8(1):158–68.
+[42] Auto-Data.net - Wiki automotive catalog. 2021, https://www.auto-data.net/en/.
+(Accessed on 2021-10-15).
+[43] Hao Han, Qiao Qinyu, Liu Zongwei, Zhao Fuquan, Chen Yisong. Comparing
+the life cycle Greenhouse Gas emissions from vehicle production in China and
+the USA: implications for targeting the reduction opportunities. Clean Technol
+Environ Policy 2017;19(5):1509–22.
+[44] Volkswagen Aktiengesellschaft. Klimabilanz von E-Fahrzeugen & life
+cycle engineering. 2019, (Accessed on 2021-10-15). URL: https:
+//uploads.volkswagen-newsroom.com/system/production/uploaded_files/
+14448/file/da01b16ac9b580a3c8bc190ea2af27db4e0d4546/Klimabilanz_von_E-
+Fahrzeugen_Life_Cycle_Engineering.pdf?1556110703.
+[45] Yan Xiaoyu. Energy demand and greenhouse gas emissions during the production
+of a passenger car in China. Energy Convers Manage 2009;50(12):2964–6.
+[46] Estaller Julian, Kersten Anton, Kuder Manuel, Mashayekh Ali, Buberger Jo-
+hannes, Thiringer Torbjörn, Eckerle Richard, Weyh Thomas. Battery impedance
+modeling and comprehensive comparisons of state-of-the-art cylindrical 18650
+battery cells considering cells’ price, impedance, specific energy and C-rate. In:
+2021 IEEE international conference on environment and electrical engineering
+and 2021 IEEE industrial and commercial power systems Europe (EEEIC / I CPS
+Europe). 2021, p. 1–8.
+[47] Andersson Öivind, Börjesson Pål. The greenhouse gas emissions of an electri-
+fied vehicle combined with renewable fuels: Life cycle assessment and policy
+implications. Appl Energy 2021;289:116621.
+[48] Edwards Robert, Larivé Jean-François, Beziat JC, et al. Well-to-wheels analysis
+of future automotive fuels and powertrains in the European context, Vol. 74.
+JRC, CONCAWE and Renault/EUCAR; 2011.
+[49] Memmler Michael, Merkel Katja, Pabst Jeannette, Rother Sven, Dreher Marion.
+Emissionsbilanz erneuerbarer energieträger. Clim Change 2013;15/2013:124.
+[50] Schoenung Susan M, Keller Jay O. Commercial potential for renewable hydrogen
+in California. Int J Hydrogen Energy 2017;42(19):13321–8.
+[51] Sun Pingping, Young Ben, Elgowainy Amgad, Lu Zifeng, Wang Michael,
+Morelli Ben, Hawkins Troy. Criteria air pollutants and greenhouse gas emissions
+from hydrogen production in U.S. steam methane reforming facilities. Environ
+Sci Technol 2019;53(12):7103–13. http://dx.doi.org/10.1021/acs.est.8b06197,
+PMID: 31039312.12[52] Icha Petra, Kuhs G. Entwicklung der spezifischen kohlendioxid-emissionen des
+deutschen strommix in den jahren 1990–2019. In: Unter mitarbeit Von Gunter
+Kuhs. Hg. V. Umweltbundesamt. Dessau-Roßlau. 2020, (Accessed on 2021-10-
+15). URL: https://www.umweltbundesamt.de/sites/default/files/medien/1410/
+publikationen/2020-04-01_climate-change_13-2020_strommix_2020_fin.pdf.
+[53] Hauser Eva, Heib S, Hildebrand J, Rau I, Weber A, Welling J, Güldenberg J,
+Maaß C, Mundt J, Werner R, et al. Marktanalyse ökostrom II: Marktanalyse
+ökostrom und HKN weiterentwicklung des herkunftsnachweissystems und der
+stromkennzeichnung. In: Umweltbundesamt, Climate Change 30/2019. 2019.
+[54] Kords M. Fahrleistung der personenkraftwagen in Deutschland nach Merkmalen
+in den Jahren 2019 und 2020. Statista GmbH; 2021, (Accessed on 2021-
+10-15). URL: https://de.statista.com/statistik/daten/studie/246069/umfrage/
+laufleistung-privater-pkw-in-deutschland/#:~:text=Laut%20der%20Umfrage%
+20lag%20die,Deutschland%20bei%20rund%2015.000%20Kilometern.
+[55] Kraftfahrt-Bundesamt. Jahresbilanz - Bestand. 2021, (Accessed on 2021-10-15).
+URL: https://www.kba.de/DE/Statistik/Fahrzeuge/fahrzeuge_node.html.
+[56] Qiao Qinyu, Zhao Fuquan, Liu Zongwei, Hao Han. Electric vehicle recy-
+cling in China: Economic and environmental benefits. Resour Conserv Recy
+2019;140:45–53.
+[57] Qiao Qinyu, Zhao Fuquan, Liu Zongwei, He Xin, Hao Han. Life cycle greenhouse
+gas emissions of Electric Vehicles in China: Combining the vehicle cycle and fuel
+cycle. Energy 2019;177:222–33.
+[58] Kersten Anton, Grunditz Emma, Thiringer Torbjörn. Efficiency of active three-
+level and five-level NPC inverters compared to a two-level inverter in a vehicle.
+In: 2018 20th European conference on power electronics and applications
+(EPE’18 ECCE Europe). 2018, p. P.1–9.
+[59] Tsokolis Dimitris, Tsiakmakis Stefanos, Dimaratos Athanasios, Fontaras Georgios,
+Pistikopoulos Panayiotis, Ciuffo Biagio, Samaras Zissis. Fuel consumption and
+CO2 emissions of passenger cars over the new worldwide harmonized test
+protocol. Appl Energy 2016;179:1152–65.
+[60] Grunditz Emma Arfa, Thiringer Torbjörn, Saadat Nima. Acceleration, drive cycle
+efficiency, and cost tradeoffs for scaled electric vehicle drive system. IEEE Trans
+Ind Appl 2020;56(3):3020–33. http://dx.doi.org/10.1109/TIA.2020.2976861.
+[61] Kersten Anton, Kuder Manuel, Thiringer Torbjörn. Hybrid output voltage modu-
+lation (PWM-FSHE) for a modular battery system based on a cascaded H-bridge
+inverter for electric vehicles reducing drivetrain losses and current ripple.
+Energies 2021;14(5):1424.
+[62] Rosen Marc A. Environmental sustainability tools in the biofuel industry. Biofuel
+Res J 2018;5(1):751–2.
+[63] Aghbashlo Mortaza, Khounani Zahra, Hosseinzadeh-Bandbafha Homa, Gupta Vi-
+jai Kumar, Amiri Hamid, Lam Su Shiung, Morosuk Tatiana, Tabatabaei Meisam.
+Exergoenvironmental analysis of bioenergy systems: A comprehensive review.
+Renew Sustain Energy Rev 2021;149:111399.

@@ -1,0 +1,381 @@
+[{
+  "caption": "Fig. 2. Comparison between photovoltaic cell simulation results and experimental results. (a) I–V characteristic curves of the PV model at different irradiances intensity and the temperature keeps 25 ◦C. (b) I–V characteristic curves of the PV model at different temperatures and the irradiance intensity keeps at 1000W m− 2.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 557.6730346679688,
+    "y1": 727.0360107421875,
+    "y2": 741.3734741210938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 518.4,
+    "y1": 497.28,
+    "y2": 717.12
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure2-1.png"
+}, {
+  "caption": "Table 7 Cost of the system [9,34].",
+  "captionBoundary": {
+    "x1": 312.88800048828125,
+    "x2": 395.23834228515625,
+    "y1": 522.6008911132812,
+    "y2": 536.9949951171875
+  },
+  "figType": "Table",
+  "imageText": ["Photovoltaic", "array", "($)", "200*20", "Electrolyzer", "($/kW)", "1200–2000", "Fuel", "cell", "($/kW)", "2000–3000", "High", "pressure", "hydrogen", "tank", "($/kgH2)", "200–2000", "Converters", "($/kW)", "500–1000", "Extra", "components", "($/kW)", "300–500", "Component", "Cost"],
+  "name": "7",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 312.0,
+    "x2": 552.0,
+    "y1": 540.48,
+    "y2": 611.04
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Table7-1.png"
+}, {
+  "caption": "Fig. 12. Average daily solar radiation and ambient temperature in Tianjin of different months.",
+  "captionBoundary": {
+    "x1": 306.5950012207031,
+    "x2": 557.6328125,
+    "y1": 250.13491821289062,
+    "y2": 264.52899169921875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "12",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 307.68,
+    "x2": 556.3199999999999,
+    "y1": 54.239999999999995,
+    "y2": 240.95999999999998
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure12-1.png"
+}, {
+  "caption": "Fig. 13. The power generation and H2 production of the system in different months.",
+  "captionBoundary": {
+    "x1": 306.5950012207031,
+    "x2": 557.6339111328125,
+    "y1": 484.5609130859375,
+    "y2": 498.9549560546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "13",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 307.68,
+    "x2": 557.28,
+    "y1": 286.56,
+    "y2": 474.71999999999997
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure13-1.png"
+}, {
+  "caption": "Fig. 11. The solar radiation energy, photovoltaic module absorbed energy, PEMFC output energy and H2 production from 4am to 7pm during a day.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 288.68402099609375,
+    "y1": 708.6107788085938,
+    "y2": 724.1954956054688
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "11",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 38.879999999999995,
+    "x2": 288.0,
+    "y1": 520.3199999999999,
+    "y2": 698.88
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure11-1.png"
+}, {
+  "caption": "Table 6 System configuration and operating conditions of the model.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 230.893310546875,
+    "y1": 56.30190658569336,
+    "y2": 70.69598388671875
+  },
+  "figType": "Table",
+  "imageText": ["Photovoltaic", "module", "Area", "of", "photovoltaic", "array", "(m2)", "1.4", "Maximum", "power", "under", "standard", "conditions", "(W)", "200", "Maximum", "power", "voltage", "under", "standard", "conditions", "(V)", "26.3", "Maximum", "power", "current", "under", "standard", "conditions", "(A)", "7.61", "Open", "circuit", "voltage", "(V)", "32.9", "Short", "circuit", "current", "(A)", "8.21", "Number", "of", "photovoltaic", "arrays", "20", "Electrolyzer", "module", "Activation", "area", "(cm2)", "27", "Operating", "temperature", "(◦C)", "80", "Cathode", "pressure", "(atm)", "10", "Number", "of", "electrolyzer", "cells", "80", "Fuel", "cell", "module", "Activation", "area", "(cm2)", "51.8", "Anode", "inlet", "gas", "pressure", "(atm)", "2.0", "Cathode", "inlet", "gas", "pressure", "(atm)", "2.0", "Anode", "stoichiometric", "ratio", "1.0", "Cathode", "stoichiometric", "ratio", "2.0", "Number", "of", "fuel", "cells", "100", "Parameters", "Value"],
+  "name": "6",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 36.96,
+    "x2": 289.44,
+    "y1": 73.44,
+    "y2": 264.96
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Table6-1.png"
+}, {
+  "caption": "Fig. 10. Average hourly solar radiation and ambient temperature in Tianjin from November to next April.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 288.694091796875,
+    "y1": 483.0299072265625,
+    "y2": 497.4239501953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "10",
+  "page": 10,
+  "regionBoundary": {
+    "x1": 38.879999999999995,
+    "x2": 287.03999999999996,
+    "y1": 287.52,
+    "y2": 473.76
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure10-1.png"
+}, {
+  "caption": "Fig. 1. Schematic diagram of the photovoltaic-electrolyzer-fuel cell system.",
+  "captionBoundary": {
+    "x1": 176.25799560546875,
+    "x2": 419.00091552734375,
+    "y1": 736.5603637695312,
+    "y2": 741.3734741210938
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 1,
+  "regionBoundary": {
+    "x1": 125.75999999999999,
+    "x2": 469.44,
+    "y1": 523.68,
+    "y2": 726.72
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure1-1.png"
+}, {
+  "caption": "Fig. 4. Comparison of polarization curves of fuel cell between simulation results and experimental data [49].",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 288.6746826171875,
+    "y1": 727.0360107421875,
+    "y2": 741.3734130859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 38.879999999999995,
+    "x2": 287.03999999999996,
+    "y1": 512.64,
+    "y2": 717.12
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure4-1.png"
+}, {
+  "caption": "Fig. 3. Comparison of I–V characteristic curves of electrolyzer cell between simulation results and experimental data [48].",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 288.67974853515625,
+    "y1": 270.8279113769531,
+    "y2": 285.1653137207031
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 38.879999999999995,
+    "x2": 287.03999999999996,
+    "y1": 54.239999999999995,
+    "y2": 261.12
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure3-1.png"
+}, {
+  "caption": "Fig. 8. Effect of solar radiation intensity on the system performance, (a) the solar radiation power, photovoltaic module absorbed power and photovoltaic module efficiency, (b) electrolyzer efficiency and H2 production rate, (c) PEMFC output power and system efficiency.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 288.6849060058594,
+    "y1": 686.2738647460938,
+    "y2": 719.830078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "8",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 60.96,
+    "x2": 265.44,
+    "y1": 54.239999999999995,
+    "y2": 676.8
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure8-1.png"
+}, {
+  "caption": "Fig. 9. Effect of ambient temperature on the system performance, (a) the solar radiation power, photovoltaic module absorbed power and photovoltaic module efficiency, (b) electrolyzer efficiency and H2 production rate, (c) PEMFC output power and system efficiency.",
+  "captionBoundary": {
+    "x1": 306.5950012207031,
+    "x2": 557.66650390625,
+    "y1": 686.2738647460938,
+    "y2": 719.830078125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "9",
+  "page": 9,
+  "regionBoundary": {
+    "x1": 329.76,
+    "x2": 535.1999999999999,
+    "y1": 54.239999999999995,
+    "y2": 676.8
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure9-1.png"
+}, {
+  "caption": "Table 1 Parameters of photovoltaic cell model.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 160.5376434326172,
+    "y1": 641.599853515625,
+    "y2": 655.9939575195312
+  },
+  "figType": "Table",
+  "imageText": ["m", "7.61", "Temperature", "coefficient", "(◦C", "m2", "W−", "1)", "K", "1.38", "×", "10−", "23", "sc", "8.41", "Maximum-power", "current", "(A)", "Iref", "m", "26.3", "Short-circuit", "current", "(A)", "Iref", "oc", "32.9", "Maximum-power", "voltage", "(V)", "Vref", "Reference", "temperature", "(◦C)", "Tref", "25", "Reference", "solar", "radiation", "intensity", "(W", "m−", "2)", "Sref", "1000", "Open-circuit", "voltage", "(V)", "Vref", "Parameters", "Symbol", "Value"],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 36.96,
+    "x2": 289.44,
+    "y1": 659.52,
+    "y2": 742.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Table1-1.png"
+}, {
+  "caption": "Fig. 5. Effect of operating temperature on the efficiency and performance of PEME, (a) PEME efficiency, (b) cathode activation overpotential, (c) anode activation overpotential, (d) anode concentration overpotential, (e) cathode concentration overpotential, (f) ohmic overpotential.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 557.6815795898438,
+    "y1": 375.5399169921875,
+    "y2": 389.8773193359375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 38.879999999999995,
+    "x2": 557.28,
+    "y1": 54.239999999999995,
+    "y2": 365.76
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure5-1.png"
+}, {
+  "caption": "Fig. 6. Effects of (a) cathode pressure and (b) membrane thickness on the performance of electrolyzer.",
+  "captionBoundary": {
+    "x1": 131.8679962158203,
+    "x2": 463.4521484375,
+    "y1": 603.3319091796875,
+    "y2": 608.14501953125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 518.4,
+    "y1": 412.32,
+    "y2": 593.76
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure6-1.png"
+}, {
+  "caption": "Table 3 Electrolyzer electrochemical and transport parameters.",
+  "captionBoundary": {
+    "x1": 306.5950012207031,
+    "x2": 481.19659423828125,
+    "y1": 56.30190658569336,
+    "y2": 70.69598388671875
+  },
+  "figType": "Table",
+  "imageText": ["Kf1", "+", "I2", "Kf2", "Faraday", "efficiency", "ηF", "=", "I2", "Deff", "H2", "H2", "concentration", "at", "the", "interface", "between", "the", "membrane", "and", "the", "electrode", "(mol", "m−", "3)", "cmem", "H2", "=", "pcatXH2", "RT", "+", "δcat", "e", "nH2", "Deff", "O2", "O2", "concentration", "at", "the", "interface", "between", "the", "membrane", "and", "the", "electrode", "(mol", "m−", "3)", "cmem", "O2", "=", "panXO2", "RT", "+", "δan", "e", "nO2", "nH2", "+", "ncat", "H2O", "Molar", "fraction", "of", "water", "in", "the", "cathode", "Xcat", "H2", "O", "=", "ncat", "H2", "O", "nH2", "+", "ncat", "H2O", "Molar", "fraction", "of", "O2", "in", "the", "cathode", "XH2", "=", "nH2", "nO2", "+", "nano", "H2O", "Molar", "fraction", "of", "water", "in", "the", "anode", "Xano", "H2", "O", "=", "nano", "H2", "O", "nO2", "+", "nano", "H2O", "Molar", "fraction", "of", "O2", "in", "the", "anode", "XO2", "=", "nO2", ")1.5", "333.15", "Effective", "diffusion", "coefficient", "of", "O2", "(m2", "s−", "1)", "Deff", "O2", "=", "ε1.5DO2", "Diffusion", "coefficient", "of", "O2", "(m2", "s−", "1)", "DO2", "=", "2.652×", "10−", "5", "(", "T", ")1.5", "333.15", "Effective", "diffusion", "coefficient", "of", "H2", "(m2", "s−", "1)", "Deff", "H2", "=", "ε1.5DH2", "Diffusion", "coefficient", "of", "H2", "(m2", "s−", "1)", "DH2", "=", "1.055×", "10−", "4", "(", "T", ")]", "1", "303", "−", "1", "T", "0.326)exp", "[", "1268", "(", "Ionic", "conductivity", "of", "the", "PEM", "(S", "m−", "1)", "σmem", "=", "(0.5139λ", "−", ")1.5", "333.15", "Diffusion", "coefficient", "of", "vapor", "(m2", "s−", "1)", "DH2O", "=", "2.982×", "10−", "5", "(", "T", "s−", "1)", "Deff", "H2O", "=", "ε1.5DH2", "O", "Effective", "diffusion", "coefficient", "of", "vapor", "(m2", "can", "H2", "O,ch", "=", "ccat", "H2O,ch", "=", "ρH2OT", "MH2", "O", "Water", "concentrations", "in", "the", "anode", "and", "cathode", "channels", "(mol", "m−", "3)", "Dcat", "eff", "Water", "molar", "concentration", "on", "the", "cathode", "side", "(mol", "m−", "3)", "ccat", "H2", "O,mem", "=", "ccat", "H2", "O,ch", "+", "δcat", "e", "ncat", "H2O", "Dan", "eff", "Water", "molar", "concentration", "on", "the", "anode", "side", "(mol", "m−", "3)", "can", "H2", "O,mem", "=", "can", "H2", "O,ch", "−", "δan", "e", "nan", "H2", "O", "Parameters", "Expression", "The", "hydrogen", "production", "rate", "can", "be", "calculated", "as:"],
+  "name": "3",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 305.76,
+    "x2": 558.24,
+    "y1": 73.44,
+    "y2": 418.08
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Table3-1.png"
+}, {
+  "caption": "Fig. 7. Effects of (a) inlet pressure and (b) stoichiometric ratio on the performance of fuel cell.",
+  "captionBoundary": {
+    "x1": 144.4530029296875,
+    "x2": 451.0191345214844,
+    "y1": 277.5749206542969,
+    "y2": 282.38800048828125
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "7",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 76.8,
+    "x2": 518.4,
+    "y1": 54.239999999999995,
+    "y2": 267.84
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Figure7-1.png"
+}, {
+  "caption": "Table 4 Parameters of fuel cell model.",
+  "captionBoundary": {
+    "x1": 37.587398529052734,
+    "x2": 132.8154296875,
+    "y1": 445.6119079589844,
+    "y2": 460.0059509277344
+  },
+  "figType": "Table",
+  "imageText": ["density", "of", "liquid", "water", "(kg", "m−", "3)", "ρ1", "1000", "permeability", "of", "liquid", "water", "(m2)", "Kl", "2", "×", "10−", "18", "molar", "mass", "of", "liquid", "water", "(kg", "mol−", "1)", "M1", "18", "×", "10−", "3", "10−", "5", "Water", "vapor", "diffusivity", "in", "cathode", "(m2", "s−", "1)", "Dc", "vap", "2.982", "×", "10−", "4", "O2", "diffusivity", "at", "reference", "state", "(m2", "s−", "1)", "DO2", "2.652", "×", "10−", "5", "Water", "vapor", "diffusivity", "in", "anode", "(m2", "s−", "1)", "Da", "vap", "1.055", "×", "10−", "4", "Anode/cathode", "reference", "exchange", "current", "density", "(A", "m−", "2)", "iref", "a", "/iref", "c", "3", "×", "108/", "1200", "Solid", "phase", "conductivity", "(S", "m−", "1)", "σs", "5000", "Thickness", "of", "GDL", "layer", "(m)", "δGDL", "300", "×", "10−", "6", "Thickness", "of", "MPL", "layer", "(m)", "δMPL", "40", "×", "10−", "6", "Thickness", "of", "CL", "layer", "(m)", "δCL", "10", "×", "10−", "6", "Thickness", "of", "membrane", "(m)", "δm", "25.4", "×", "10−", "6", "Porosity", "of", "porous", "layer", "εpor", "0.5", "reaction", "area", "(m2)", "Aact", "51.8", "×", "10−", "4", "Sherwood", "number", "Sh", "4.86", "H2", "diffusivity", "at", "reference", "state", "(m2", "s−", "1)", "DH2", "1.055", "×", "H2", "/cref", "O2", "41.0/41.0", "Operating", "temperature", "(◦C)", "T", "80", "Anode/cathode", "operating", "pressure", "(atm)", "Pa/Pc", "1/1", "Fuel/air", "stoichiometric", "flow", "ratio", "STa/STc", "3.0/3.0", "Relative", "humidity", "of", "inlet", "fuel/air", "RHa/RHc", "1.0/1.0", "Volume", "fraction", "of", "ionomer", "in", "catalyst", "layer", "lma/lmc", "0.4/0.4", "Dry", "membrane", "density", "(kg", "m−", "3)", "ρm", "1980", "Equivalent", "weight", "of", "membrane", "(kg", "mol−", "1)", "EW", "1.1", "Anode/cathode", "transfer", "coefficient", "αa/αc", "0.5/0.5", "Hydrogen/oxygen", "reference", "concentration", "(mol", "m−", "3)", "cref", "Parameters", "Symbol", "Value"],
+  "name": "4",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 36.96,
+    "x2": 289.44,
+    "y1": 463.68,
+    "y2": 742.0799999999999
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Table4-1.png"
+}, {
+  "caption": "Table 5 Fuel cell electrochemical and transport parameters.",
+  "captionBoundary": {
+    "x1": 306.5950012207031,
+    "x2": 470.1982421875,
+    "y1": 56.30190658569336,
+    "y2": 70.69598388671875
+  },
+  "figType": "Table",
+  "imageText": ["H2", "concentration", "at", "the", "channel", "inlet", "(mol", "m−", "3)", "CH2", ",in", "=", "Pa", "−", "PsatRHa", "RT", "O2", "concentration", "at", "the", "channel", "inlet", "(mol", "m−", "3)", "CO2", ",in", "=", "0.21(Pc", "−", "PsatRHc)", "RT", "H2", "concentration", "at", "the", "outlet", "of", "channel", "(mol", "m−", "3)", "CH2", ",out", "=", "CH2", ",in", "(", "1", "−", "1", "ST", ")", "O2", "concentration", "at", "the", "outlet", "of", "channel", "(mol", "m−", "3)", "CO2", ",out", "=", "CO2", ",in", "(", "1", "−", "1", "ST", ")", "Water", "molar", "flux", "caused", "by", "EOD", "(mol", "m−", "2", "s−", "1)", "JH2O,EOD", "=", "ndI", "F", "Water", "molar", "flux", "caused", "by", "diffusion", "(mol", "m−", "2", "s−", "1)", "JH2O,back", "=", "Dm", "ρm", "EW", "λccl", "−", "λacl", "δm", "Water", "molar", "flux", "caused", "by", "hydraulic", "permeation", "(mol", "m−", "2", "s−", "1)", "JH2O,hyd", "=", "ρ1Kl", "M1μl", "Pccl−", "pem", "−", "Pacl−", "pem", "δm", "μlq", "=", "2.414×", "10", "247.8", "T", "−", "140", "−", "5", "Liquid", "water", "viscosity", "(kg", "m−", "1", "s−", "1)", ")]", "1", "303", "−", "1", "T", "⎪", "⎩", "2.69266", "×", "10−", "10λ", "≤", "2", "D(T)[0.87(3", "−", "λ)", "+", "2.95(λ", "−", "2)]2", "<", "λ", "≤", "3", "D(T)[2.95(4", "−", "λ)", "+", "1.642(λ", "−", "3)]3", "<", "λ", "≤", "4", "D(T)[2.563", "−", "0.33λ", "+", "0.0264λ2", "−", "0.000671λ3]λ", ">", "4", "D(T)", "=", "10−", "10", "exp", "[", "2416", "(", "⎧", "⎪", "⎨", "s−", "1)", "Dm", "=", "Membrane", "water", "diffusivity", "(m2", "Deff", "O2", ",por", "=", "(εpor(1", "−", "s))1.5DO2", "in", "porous", "layer", "(m2", "s−", "1)", "[47]", "Effective", "diffusivity", "of", "O2", "Deff", "H2", ",por", "=", "(εpor(1", "−", "s))1.5DH2", "in", "porous", "layer", "(m2", "s−", "1)", "[47]", "Effective", "electronic", "conductivity", "(S", "m−", "1)", "σeff", "s", "=", "σs(1", "−", "ε)1.5", "Effective", "ionic", "conductivity", "(S", "m−", "1)", "σeff", "m,cl", "=", "σml1.5m", "Membrane", "ionic", "conductivity", "(S", "m−", "1)", "[46]", "σm", "=", "(0.5139λ", "−", "0.326)exp", "[", "1268", "(", "1", "303.15", "−", "1", "T", ")]", "Membrane", "water", "content", "[46]", "λ", "=", "{", "0.043", "+", "17.81a", "−", "39.85a2", "+", "36.0a3", "0", "≤", "a", "≤", "1", "14.0", "+", "1.4(a", "−", "1)", "1", "<", "a", "≤", "3", "Water", "activity", "[46]", "a", "=", "XvapPg", "Psat", "+", "2s", "=", "RH+", "2s", "Anode", "exchange", "current", "density", "(A", "m−", "2)", "ia", "=", "iref", "a", "(1", "−", "s)", "cH2", "cref", "H2", "exp", "[", "−", "1400", "(", "1", "T", "−", "1", "298.15", ")]", "Cathode", "exchange", "current", "density", "(A", "m−", "2)", "ic", "=", "iref", "c", "(1", "−", "s)", "cO2", "cref", "O2", "exp", "[", "−", "7900", "(", "1", "T", "−", "1", "298.15", ")]", "Anode", "limiting", "current", "density", "(A", "m−", "2)", "Ilim,a", "=", "2FcH2", ",CH", "δpor", "Deff", "H2", ",por", "Cathode", "limiting", "current", "density", "(A", "m−", "2)", "Ilim,c", "=", "4FcO2", ",CH", "δpor", "Deff", "O2", ",por", "Effective", "diffusivity", "of", "H2", "Ω", "=", "δ/σeff", "resistance", "(Ω", "m2)", "Parameters", "Expression", "Area", "specific"],
+  "name": "5",
+  "page": 4,
+  "regionBoundary": {
+    "x1": 305.76,
+    "x2": 558.24,
+    "y1": 73.44,
+    "y2": 737.76
+  },
+  "renderDpi": 150,
+  "renderURL": "D:\\git\\1_project\\paper-reading\\references\\pdffigures2\\generated\\1-s2.0-S0360544222024525-main1-s2.0-S0360544222024525-main-Table5-1.png"
+}]

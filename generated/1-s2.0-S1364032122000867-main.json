@@ -1,0 +1,181 @@
+[{
+  "caption": "Table 1 Reviewed values used for equivalent CO2 emission calculations.",
+  "captionBoundary": {
+    "x1": 141.6060028076172,
+    "x2": 327.39154052734375,
+    "y1": 55.791690826416016,
+    "y2": 70.46795654296875
+  },
+  "figType": "Table",
+  "imageText": ["Total", "lifetime", "traveled", "distance", "𝑆lifetime", "230", "000", "km", "[54,55]", "Energy", "density", "𝜉bat", "0.200", "kWh/kg", "[46]", "Recycling", "emissions", "vehicle", "body", "𝑒recyc,body", "−2.93", "kg", "CO2", "−", "eq.∕kg", "[56,57]", "Recycling", "emissions", "battery", "pack", "𝑒recyc,bat", "−48.4", "kg", "CO2", "−", "eq.∕kWh", "[56,57]", "Gasoline", "-", "WtW", "𝑒wtw", "2.83", "kg", "CO2", "−", "eq.∕L", "[48]", "Diesel", "-", "WtW", "𝑒wtw", "3.18", "kg", "CO2", "−", "eq.∕L", "[48]", "LPG", "-", "WtW", "𝑒wtw", "2.00", "kg", "CO2", "−", "eq.∕L", "[48]", "CNG", "-", "WtW", "𝑒wtw", "2.68", "kg", "CO2", "−", "eq.∕kg", "[48]", "CBG", "-", "WtW", "𝑒wtw", "0.749", "kg", "CO2", "−", "eq.∕kg", "[49]", "H2", "-", "WtW", "𝑒wtw", "9.13", "kg", "CO2", "−", "eq.∕kg", "[51]", "Conventional", "electricity", "-", "WtW", "𝑒wtw", "0.401", "kg", "CO2", "−", "eq.∕kWh", "[52]", "Renewable", "electricity", "-", "WtW", "𝑒wtw", "0.036", "kg", "CO2", "−", "eq.∕kWh", "[53]", "Production", "emissions", "vehicle", "body", "𝑒prod,body", "4.56", "kg", "CO2", "−", "eq.∕kg", "[44]", "Production", "emissions", "battery", "pack", "𝑒prod,bat", "83.50", "kg", "CO2", "−", "eq.∕kWh", "[27,47]", "Emission", "source", "Coefficient", "Value", "Unit", "Reference"],
+  "name": "1",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 141.0,
+    "x2": 454.0,
+    "y1": 71.70098876953125,
+    "y2": 217.70098876953125
+  }
+}, {
+  "caption": "Table 2 Relevant modeling parameters of mid-size car selection and obtained total CO2-eq. life-cycle emissions.",
+  "captionBoundary": {
+    "x1": 37.58700180053711,
+    "x2": 338.9490966796875,
+    "y1": 233.3717041015625,
+    "y2": 248.0479736328125
+  },
+  "figType": "Table",
+  "imageText": ["Gasoline", "Volkswagen", "Passat", "2.0", "TSI", "206", "kW", "1653", "kg", "7.2", "L∕100", "km", "0", "kWh∕100", "km", "0", "kWh", "49", "559", "kg", "Diesel", "Mercedes-Benz", "C", "300", "d", "180", "kW", "1635", "kg", "4.9", "L∕100", "km", "0", "kWh∕100", "km", "0", "kWh", "38", "504", "kg", "CNG", "Audi", "A4", "40", "g-tron", "125", "kW", "1665", "kg", "3.9", "kg∕100", "km", "0", "kWh∕100", "km", "0", "kWh", "26", "754", "kg", "CBG", "Audi", "A4", "40", "g-tron", "125", "kW", "1665", "kg", "3.9", "kg∕100", "km", "0", "kWh∕100", "km", "0", "kWh", "9", "432", "kg", "H2", "Toyota", "Mirai", "135", "kW", "1900", "kg", "0.79", "kg∕100", "km", "0", "kWh∕100", "km", "2", "kWh", "19", "740", "kg", "Gasoline", "PHEV", "Conv.", "Volkswagen", "Passat", "GTE", "160", "kW", "1730", "kg", "1.4", "L∕100", "km", "11.5", "kWh∕100", "km", "13", "kWh", "22", "889", "kg", "Gasoline", "PHEV", "Renew.", "Volkswagen", "Passat", "GTE", "160", "kW", "1730", "kg", "1.4", "L∕100", "km", "11.5", "kWh∕100", "km", "13", "kWh", "13", "235", "kg", "Diesel", "PHEV", "Conv.", "Mercedes-Benz", "C", "300", "de", "225", "kW", "2060", "kg", "1.4", "L∕100", "km", "18.7", "kWh∕100", "km", "13.5", "kWh", "31", "208", "kg", "Diesel", "PHEV", "Renew.", "Mercedes-Benz", "C", "300", "de", "225", "kW", "2060", "kg", "1.4", "L∕100", "km", "18.7", "kWh∕100", "km", "13.5", "kWh", "15", "510", "kg", "BEV", "Conv.", "Tesla", "Model", "3", "Standard", "Plus", "239", "kW", "1684", "kg", "0", "L∕100", "km", "14.3", "kWh∕100", "km", "58", "kWh", "17", "497", "kg", "BEV", "Renew.", "Tesla", "Model", "3", "Standard", "Plus", "239", "kW", "1684", "kg", "0", "L∕100", "km", "14.3", "kWh∕100", "km", "58", "kWh", "5", "492", "kg", "Energy", "source", "Vehicle", "model", "Peak", "motor", "power", "Curb", "weight", "Fuel", "consumption", "Electricity", "consumption", "Battery", "gross", "capacity", "Total", "CO2-eq."],
+  "name": "2",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 37.0,
+    "x2": 558.0,
+    "y1": 248.70098876953125,
+    "y2": 359.70098876953125
+  }
+}, {
+  "caption": "Fig. 3. Total life-cycle emissions of mid-size car selection, including production, utilization and recycling emissions.",
+  "captionBoundary": {
+    "x1": 127.50299835205078,
+    "x2": 467.7720031738281,
+    "y1": 627.085693359375,
+    "y2": 631.5999755859375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "3",
+  "page": 5,
+  "regionBoundary": {
+    "x1": 79.0,
+    "x2": 517.0,
+    "y1": 385.70098876953125,
+    "y2": 614.7009887695312
+  }
+}, {
+  "caption": "Table 4 Coefficients for normalized life-cycle emission estimation relative to the peak motor power according to (10).",
+  "captionBoundary": {
+    "x1": 306.60400390625,
+    "x2": 557.6857299804688,
+    "y1": 55.791690826416016,
+    "y2": 77.44195556640625
+  },
+  "figType": "Table",
+  "imageText": ["Gasoline", "3.934", "⋅", "10−6", "5.981", "⋅", "10−1", "100.3", "Diesel", "0", "5.260", "⋅", "10−1", "96.05", "CNG", "0", "3.858", "⋅", "10−1", "70.14", "CBG", "−1.335", "⋅", "10−3", "3.663", "⋅", "10−1", "14.96", "Gasoline", "PHEV", "Conv.", "−3.628", "⋅", "10−4", "4.318", "⋅", "10−1", "56.38", "Gasoline", "PHEV", "Renew.", "−2.012", "⋅", "10−4", "2.449", "⋅", "10−1", "29.32", "BEV", "Conv.", "−1.296", "⋅", "10−4", "2.000", "⋅", "10−1", "63.75", "BEV", "Renew.", "−1.209", "⋅", "10−4", "1.058", "⋅", "10−1", "13.60", "Energy", "source", "𝑎", "𝑏", "𝑐"],
+  "name": "4",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 306.0,
+    "x2": 558.0,
+    "y1": 79.70098876953125,
+    "y2": 164.70098876953125
+  }
+}, {
+  "caption": "Table 3 Coefficients for normalized life-cycle emission estimation relative to the vehicle curb weight according to (9).",
+  "captionBoundary": {
+    "x1": 37.58700180053711,
+    "x2": 288.6694641113281,
+    "y1": 55.791690826416016,
+    "y2": 77.44195556640625
+  },
+  "figType": "Table",
+  "imageText": ["Gasoline", "3.701", "⋅", "10−5", "3.953", "⋅", "10−2", "51.28", "Diesel", "1.049", "⋅", "10−5", "7.874", "⋅", "10−2", "7.834", "LPG", "0", "1.087", "⋅", "10−1", "6.439", "CNG", "0", "5.320", "⋅", "10−2", "30.45", "CBG", "0", "1.997", "⋅", "10−2", "8.509", "Gasoline", "PHEV", "Conv.", "2.759", "⋅", "10−5", "−2.253", "⋅", "10−2", "65.98", "Gasoline", "PHEV", "Renew.", "1.323", "⋅", "10−5", "−5.429", "⋅", "10−3", "30.07", "Diesel", "PHEV", "Conv.", "0", "6.343", "⋅", "10−2", "1.226", "Diesel", "PHEV", "Renew.", "0", "−8.232", "⋅", "10−3", "88.26", "BEV", "Conv.", "0", "4.510", "⋅", "10−2", "9.892", "BEV", "Renew.", "0", "1.614", "⋅", "10−2", "−2.970", "Energy", "source", "𝑎", "𝑏", "𝑐"],
+  "name": "3",
+  "page": 6,
+  "regionBoundary": {
+    "x1": 37.0,
+    "x2": 289.0,
+    "y1": 79.70098876953125,
+    "y2": 190.70098876953125
+  }
+}, {
+  "caption": "Fig. 1. Methodology of LCA: Accumulation of production, utilization and recycling GHG emissions in a database and systematic evaluation.",
+  "captionBoundary": {
+    "x1": 92.38099670410156,
+    "x2": 502.8968200683594,
+    "y1": 146.979736328125,
+    "y2": 151.4940185546875
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "1",
+  "page": 2,
+  "regionBoundary": {
+    "x1": 38.0,
+    "x2": 557.0,
+    "y1": 55.70098876953125,
+    "y2": 134.70098876953125
+  }
+}, {
+  "caption": "Fig. 4. Normalized CO2-eq. life-cycle emissions relative to the vehicle curb weight.",
+  "captionBoundary": {
+    "x1": 175.40899658203125,
+    "x2": 419.8655700683594,
+    "y1": 344.7737121582031,
+    "y2": 350.8819885253906
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "4",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.0,
+    "x2": 519.0,
+    "y1": 55.70098876953125,
+    "y2": 332.70098876953125
+  }
+}, {
+  "caption": "Fig. 5. Peak motor power relative to the vehicle curb weight.",
+  "captionBoundary": {
+    "x1": 206.2790069580078,
+    "x2": 388.99676513671875,
+    "y1": 650.1077270507812,
+    "y2": 654.6220092773438
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "5",
+  "page": 7,
+  "regionBoundary": {
+    "x1": 76.0,
+    "x2": 519.0,
+    "y1": 366.70098876953125,
+    "y2": 637.7009887695312
+  }
+}, {
+  "caption": "Fig. 2. Speed profile of the WLTP, consisting of Low (blue), Medium (orange), High (green) and Extra-high (yellow) speed part.",
+  "captionBoundary": {
+    "x1": 108.8479995727539,
+    "x2": 486.4306945800781,
+    "y1": 273.25372314453125,
+    "y2": 277.76800537109375
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "2",
+  "page": 3,
+  "regionBoundary": {
+    "x1": 66.0,
+    "x2": 529.0,
+    "y1": 55.70098876953125,
+    "y2": 261.70098876953125
+  }
+}, {
+  "caption": "Fig. 6. Normalized CO2-eq. life-cycle emissions relative to the peak motor power.",
+  "captionBoundary": {
+    "x1": 177.37600708007812,
+    "x2": 417.89886474609375,
+    "y1": 340.293701171875,
+    "y2": 346.4019775390625
+  },
+  "figType": "Figure",
+  "imageText": [],
+  "name": "6",
+  "page": 8,
+  "regionBoundary": {
+    "x1": 79.0,
+    "x2": 516.0,
+    "y1": 55.70098876953125,
+    "y2": 328.70098876953125
+  }
+}]
